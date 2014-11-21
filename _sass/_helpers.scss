@@ -1,0 +1,65 @@
+// =====================================
+// HELPER RULES
+// =====================================
+
+// A collection of simple generic classes and Sass helpers.
+
+// PLACEHOLDERS ================================================================
+
+%no_list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+// END PLACEHOLDERS ============================================================
+
+.lead { font-size: 1.3em; }
+.list--unstyled { @extend %no_list; }
+.list--indent { padding-left: 0.5em; }
+.hide, .screen-reader-text {
+  top: -9999px;
+  left: -9999px;
+  position: absolute;
+}
+.text--left { text-align: left; }
+.text--right { text-align: right; }
+.text--center { text-align: center; }
+.spacer {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.icon-alone {
+  display: inline-block; // Fix for clickability issue in WebKit
+}
+
+.screen-reader-text, .ir { @include hide-text; }
+.vh {
+  border: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+
+.success { color: $cs-alert-success; }
+.error, .errors { color: $cs-alert-danger; }
+
+@media (min-width: $mummyBear) {
+  .left { float: left; }
+  .right { float: right; }
+  .list--inline > li {
+    padding-left: 1em;
+    padding-right: 1em;
+    display: inline-block;
+    &:first-child { padding-left: 0; }
+  }
+}
+
+@media (min-width: $daddyBear) {
+  .break-desktop { display: block; }
+}

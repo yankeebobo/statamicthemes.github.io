@@ -2,124 +2,80 @@
 // BASE RULES
 // =====================================
 
-
 // A Base rule is applied to an element using an element selector, a descendent selector,
 // or a child selector, along with any pseudo-classes.
 // It doesn't include any class or ID selectors.
 // It is defining the default styling for how that element should look in all occurrences on the page.
 
+// DROP THE BASE ===============================================================
+
+* { -webkit-font-smoothing: antialiased; }
+
 html  {
   font-size: 100%;
+  background-color: $lighterGrey;
 }
 body {
-  font-weight: 400;
   line-height: 1.5;
-  color: $fontColor;
-  font-size: 0.875em;
+  color: $cs-font;
+  font-size: em(14);
   font-style: normal;
-  font-family: $mainFont;
+  font-family: $font-sans;
+  background-color: $cs-bodyBg;
+  font-weight: $mainFontWeight;
 }
-
-h1 { font-size: 2.9em; line-height: 1.1; letter-spacing: 0.02em; }
-h2 { font-size: 1.7em; line-height: 1.1; letter-spacing: 0.02em; }
-h3 { font-size: 1.3em; line-height: 1.1; }
-h4,h5,h6 { font-size: 0.875em; }
+h1 { font-size: em(36); margin-top: 0; margin-bottom: 0; }
+h2 { font-size: em(24); margin-top: 0.2em; margin-bottom: 0; }
+h3 { font-size: em(18); margin-top: 0.2em; margin-bottom: 0; }
+h4 { font-size: em(16); margin-top: 0.2em; margin-bottom: 0; }
+h5 { font-size: em(16); margin-top: 0.2em; margin-bottom: 0; }
+h6 { font-size: em(16); margin-top: 0.2em; margin-bottom: 0; }
 
 h1,h2,h3,h4,h5,h6 {
-  font-weight: 700;
-  color: $fontColor;
+  color: $cs-heading;
   font-style: normal;
-  font-family: $headingFont;
+  font-family: $font-sans-heading;
+  font-weight: $headingFontWeight;
+  a:link, a:visited { color: $cs-heading; text-decoration: none; }
+  a:hover, a:active, a:focus { color: $cs-heading; text-decoration: none; }
 }
-h1 { margin-top: 0; }
-h2 { margin-bottom: 0.5em; }
-h3,h4,h5,h6 { margin-bottom: 0.1em; }
 
-h3 + p, h4 + p, h5 + p, h6 + p { margin-top: 0; }
-
-h3 + ul, h4 + ul, h5 + ul, h6 + ul,
-h3 + ol, h4 + ol, h5 + ol, h6 + ol { margin-top: 0; }
-
+h4,h5,h6 { margin-bottom: 0; }
+h1+ p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p { margin-top: 0; }
 a {
-  text-decoration: none;
+  color: $cs-font;
+  text-decoration: underline;
+  a:link, &:visited { color: $cs-font; }
+  &:hover, &:active, &:focus { color: $cs-font; text-decoration: none; }
 }
-strong, b {
-  font-weight: 700;
+strong, b, .callout {
   font-style: normal;
-  font-family: $mainFont;
+  font-weight: $boldFontWeight;
 }
 em, i {
-  font-weight: 400;
   font-style: italic;
-  font-family: $mainFont;
+  font-weight: $mainFontWeight;
 }
-code { background-color: rgb(255, 249, 205); font-size: 0.875em; }
+code { background-color: $lighterGrey; }
 pre code { background-color: transparent; }
-img { max-width: 100%; height: auto; }
 
+img { width: 100%; max-width: 100%; height: auto; vertical-align: bottom; }
 blockquote {
   margin-left: 0;
-  font-size: 1.3em;
-  padding-left: 1em;
-  color: $fontColor;
-  border-left: 0.3em solid lighten($fontColor,50%);
+  font-weight: 300;
+  font-size: 1em;
+  color: $cs-font;
+  font-style: italic;
 }
-ul,ol { padding-left: 0; }
+ol,ul { padding-left: 1.3em; }
 dt { font-weight: bold; }
 dd { margin-bottom: 1em; }
+iframe, object { max-width: 100%; }
+figure { margin: 0; }
 
-// Forms
-.form {
-  width: 100%;
-  padding: 1em;
-  background-color: $white;
-  border: 0.1em solid $borderColor;
-
-  label { cursor: pointer; }
-  input[type],
-  textarea { padding: 0.3em; }
-
-  input {
-    padding: 0.3em;
-    -webkit-appearance: none;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-  }
-}
-
-
-// Tables
-.table {
-  width: 100%;
-  background-color: $white;
-  border: 0.1em solid $borderColor;
-
-  caption { font-weight: bold; }
-  thead {
-    text-align: left;
-    text-align: center;
-    background-color: $lightGrey;
-
-    th { border-color: $borderColor; }
-  }
-  th,td { padding: 0.5em; border: 0.1em solid $borderColor; }
-  td { text-align: left; }
-
-  th[scope="row"] { font-weight: normal; }
-  th[scope="rowgroup"] { vertical-align: middle; }
-  th[scope="row"],
-  th[scope="rowgroup"] { text-align: left; }
-
-  tbody tr:nth-of-type(even) {
-    background-color: $lightGrey;
-  }
-  tfoot {
-    font-size: 75%;
-    background-color: $lightGrey;
-
-    td { text-align: center; }
-  }
-}
-.icon-alone {
-  display: inline-block; // Fix for clickability issue in WebKit
+button { outline: none; }
+textarea { min-height: 10em; }
+mark {
+  color: $black;
+  background-color: rgb(255, 255, 0);
 }

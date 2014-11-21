@@ -7,7 +7,7 @@
 // The minor components such as a callout, or login form, or a navigation item sit within the scope of major components such as a header or footer.
 
 * { box-sizing: border-box; }
-html { background-color: $mainBgColor; }
+html { background-color: $lighterGrey; }
 body { background-color: $white; }
 .container {
   margin: 0 auto;
@@ -16,12 +16,12 @@ body { background-color: $white; }
 }
 header[role="banner"] {
   padding: 1.5em 0;
-  background-color: $mainBgColor;
-  border-bottom: 0.1em solid darken($mainBgColor, 10%);
+  background-color: $lighterGrey;
+  border-bottom: 0.1em solid darken($lighterGrey, 10%);
 }
 footer[role="contentinfo"] {
   padding: 1.5em;
   margin-top: 1.5em;
-  background-color: $mainBgColor;
-  border-top: 0.1em solid darken($mainBgColor, 10%);
+  background-color: $lighterGrey;
+  border-top: 0.1em solid darken($lighterGrey, 10%);
 }

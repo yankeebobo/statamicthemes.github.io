@@ -10,15 +10,6 @@
 // LINKS & NAV
 // ==============================================================
 
-.form-search {
-  input[type="search"] {
-    &:focus { border-color: $mainColor; }
-  }
-  button {
-    &:hover, &:focus { background-color: $lightGrey; color: $white; }
-  }
-}
-
 .js .nav__list { display: none; } // hide nav on small screens
 
 a {
@@ -37,15 +28,15 @@ a {
   &:link, &:visited { color: $white; }
   &:hover, &:active, &:focus { color: $white; }
 }
-.nav__button.open { color: $compColor; }
+.nav__button.open { color: $cs-a1; }
 .nav__listItem .nav__link {
   &:link, &:visited { color: $white; }
-  &:hover, &:active, &:focus { color: $white; background-color: $compColor; }
+  &:hover, &:active, &:focus { color: $white; background-color: $cs-a1; }
 }
 .article__summary a:hover,
 .article__summary a:focus,
 .article__content a:hover,
-.article__content a:focus { color: $fontColor; border-bottom: 0.1em solid; }
+.article__content a:focus { color: $cs-font; border-bottom: 0.1em solid; }
 
 // MUMMY BEAR
 // ==============================================================

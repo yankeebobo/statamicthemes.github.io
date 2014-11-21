@@ -18,27 +18,12 @@
   text-align: center;
 }
 .pagination { text-align: center; font-size: 0.875em; color: $lightGrey; }
-.pagination__number {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-}
-.align-center {
-  display: block;
-  text-align: center;
-}
-.list-unstyled {
-  padding-left: 0;
-  list-style: none;
-}
-.pull-left { float: left; }
-.pull-right { float: right; }
 
 .btn-back {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
-.lead { font-size: 1.2em; }
-.text-warning { color: $warningColor; }
+
 .article { padding-top: 0.5em; padding-bottom: 0.5em; }
 .article__meta {
   margin-top: 0.3em;
@@ -50,7 +35,7 @@
 .article__summary a,
 .article__summary a:visited,
 .article__content a,
-.article__content a:visited { color: $mainColor; border-bottom: 0.1em dotted; }
+.article__content a:visited { color: $cs-font; border-bottom: 0.1em dotted; }
 .article__summary > p { margin-top: 0; }
 .article__video,
 .article__img { margin-bottom: 1em; }
@@ -62,8 +47,8 @@
   padding-top: 1em;
   overflow: hidden;
   padding-bottom: 1em;
-  border-top: 0.1em solid $borderColor;
-  border-bottom: 0.1em solid $borderColor;
+  border-top: 0.1em solid $lighterGrey;
+  border-bottom: 0.1em solid $lighterGrey;
 }
 .nav {
   width: 100%;
@@ -103,30 +88,4 @@
   font-size: 0.9em;
   text-align: right;
   background-color: $black;
-}
-.form-search {
-  padding: 0;
-  div { position: relative; z-index: 0; }
-  label { display: block; }
-  input[type="search"] {
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    border: none;
-    outline: none;
-    padding: 0 0.5em;
-    border: 4px solid $lightGrey;
-    -webkit-appearance: none;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-  }
-  button {
-    right: 4px;
-    bottom: 4px;
-    height: 32px;
-    border: none;
-    outline: none;
-    position: absolute;
-    background-color: $lighterGrey;
-  }
 }
