@@ -1,0 +1,31 @@
+# Site settings
+title: Statamic Themes
+email: gareth.redfern@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://statamicthemes.com" # the base hostname & protocol for your site
+twitter_username: garethredfern
+github_username:  garethredfern
+
+# Build settings
+markdown: kramdown
+permalink: title
+paginate: 5
+
+#Sass
+sass:
+    sass_dir: _sass
+
+#Collections
+collections:
+  articles:
+    output: true
+  reference:
+    output: true
+  themes:
+    output: true
+  add-ons:
+    output: true

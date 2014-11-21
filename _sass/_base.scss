@@ -1,0 +1,125 @@
+// =====================================
+// BASE RULES
+// =====================================
+
+
+// A Base rule is applied to an element using an element selector, a descendent selector,
+// or a child selector, along with any pseudo-classes.
+// It doesn't include any class or ID selectors.
+// It is defining the default styling for how that element should look in all occurrences on the page.
+
+html  {
+  font-size: 100%;
+}
+body {
+  font-weight: 400;
+  line-height: 1.5;
+  color: $fontColor;
+  font-size: 0.875em;
+  font-style: normal;
+  font-family: $mainFont;
+}
+
+h1 { font-size: 2.9em; line-height: 1.1; letter-spacing: 0.02em; }
+h2 { font-size: 1.7em; line-height: 1.1; letter-spacing: 0.02em; }
+h3 { font-size: 1.3em; line-height: 1.1; }
+h4,h5,h6 { font-size: 0.875em; }
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 700;
+  color: $fontColor;
+  font-style: normal;
+  font-family: $headingFont;
+}
+h1 { margin-top: 0; }
+h2 { margin-bottom: 0.5em; }
+h3,h4,h5,h6 { margin-bottom: 0.1em; }
+
+h3 + p, h4 + p, h5 + p, h6 + p { margin-top: 0; }
+
+h3 + ul, h4 + ul, h5 + ul, h6 + ul,
+h3 + ol, h4 + ol, h5 + ol, h6 + ol { margin-top: 0; }
+
+a {
+  text-decoration: none;
+}
+strong, b {
+  font-weight: 700;
+  font-style: normal;
+  font-family: $mainFont;
+}
+em, i {
+  font-weight: 400;
+  font-style: italic;
+  font-family: $mainFont;
+}
+code { background-color: rgb(255, 249, 205); font-size: 0.875em; }
+pre code { background-color: transparent; }
+img { max-width: 100%; height: auto; }
+
+blockquote {
+  margin-left: 0;
+  font-size: 1.3em;
+  padding-left: 1em;
+  color: $fontColor;
+  border-left: 0.3em solid lighten($fontColor,50%);
+}
+ul,ol { padding-left: 0; }
+dt { font-weight: bold; }
+dd { margin-bottom: 1em; }
+
+// Forms
+.form {
+  width: 100%;
+  padding: 1em;
+  background-color: $white;
+  border: 0.1em solid $borderColor;
+
+  label { cursor: pointer; }
+  input[type],
+  textarea { padding: 0.3em; }
+
+  input {
+    padding: 0.3em;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+  }
+}
+
+
+// Tables
+.table {
+  width: 100%;
+  background-color: $white;
+  border: 0.1em solid $borderColor;
+
+  caption { font-weight: bold; }
+  thead {
+    text-align: left;
+    text-align: center;
+    background-color: $lightGrey;
+
+    th { border-color: $borderColor; }
+  }
+  th,td { padding: 0.5em; border: 0.1em solid $borderColor; }
+  td { text-align: left; }
+
+  th[scope="row"] { font-weight: normal; }
+  th[scope="rowgroup"] { vertical-align: middle; }
+  th[scope="row"],
+  th[scope="rowgroup"] { text-align: left; }
+
+  tbody tr:nth-of-type(even) {
+    background-color: $lightGrey;
+  }
+  tfoot {
+    font-size: 75%;
+    background-color: $lightGrey;
+
+    td { text-align: center; }
+  }
+}
+.icon-alone {
+  display: inline-block; // Fix for clickability issue in WebKit
+}

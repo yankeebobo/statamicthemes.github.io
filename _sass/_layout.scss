@@ -1,0 +1,27 @@
+// =====================================
+// LAYOUT RULES
+// =====================================
+
+// CSS, by its very nature, is used to lay elements out on the page.
+// However, there is a distinction between layouts dictating the major and minor components of a page.
+// The minor components such as a callout, or login form, or a navigation item sit within the scope of major components such as a header or footer.
+
+* { box-sizing: border-box; }
+html { background-color: $mainBgColor; }
+body { background-color: $white; }
+.container {
+  margin: 0 auto;
+  max-width: 42em;
+  padding: 0 1.5em;
+}
+header[role="banner"] {
+  padding: 1.5em 0;
+  background-color: $mainBgColor;
+  border-bottom: 0.1em solid darken($mainBgColor, 10%);
+}
+footer[role="contentinfo"] {
+  padding: 1.5em;
+  margin-top: 1.5em;
+  background-color: $mainBgColor;
+  border-top: 0.1em solid darken($mainBgColor, 10%);
+}

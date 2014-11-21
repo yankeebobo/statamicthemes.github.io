@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<article class="article">
+  <header class="article__header">
+
+    <h2 class="article__heading">{{ page.title }}</h2>
+
+    <p class="article__meta">Published <time pubdate datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%Y-%m-%d" }}</time> by {{ page.author }}</p>
+
+  </header>
+
+  {% if page.main_img %}
+  <img src="{{ page.main_img }}" class="article__img" alt="">
+  {% endif %}
+
+  {% if page.video %}
+  <div class="article__video">
+    {{ page.video }}
+  </div><!-- END .article__video -->
+  {% endif %}
+
+  <div class="article__summary lead">
+    {{ page.summary | markdownify }}
+  </div><!-- END .article__summary -->
+
+  <div class="article__content">
+    {{ content }}
+  </div><!-- END .article__content -->
+
+  <footer class="article__footer">
+    <a href="#">&laquo; back</a>
+  </footer>
+</article>

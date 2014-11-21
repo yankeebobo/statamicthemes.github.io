@@ -1,0 +1,43 @@
+// ===============================================
+// All variables to be used in your theme go here.
+// ===============================================
+
+// ===============================================
+// COLOURS
+// ===============================================
+
+// greyscale
+
+$black: rgb(0, 0, 0);
+$darkGrey: lighten($black, 25%);
+$grey: lighten($black, 50%);
+$lightGrey: lighten($black, 75%);
+$lighterGrey: lighten($black, 90%);
+$white: rgb(255, 255, 255);
+
+// site colours
+
+$mainColor: rgb(50, 150, 248);
+$compColor: rgb(255, 144, 41);
+
+$mainBgColor: $lighterGrey;
+
+$borderColor: $lighterGrey;
+$warningColor: rgb(255, 144, 41);
+
+// links
+
+$normal: $black;
+$hover: $mainColor;
+$active: $mainColor;
+$visited: $black;
+$focus: $mainColor;
+
+// fonts
+$fontColor: $darkGrey;
+$mainFont: "Open Sans", sans-serif;
+$headingFont: "Open Sans", sans-serif;
+
+// Breakpoints
+$mummyBear    : 33em;
+$daddyBear    : 62em;
