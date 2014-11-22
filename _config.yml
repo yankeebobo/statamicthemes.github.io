@@ -17,7 +17,7 @@ paginate: 5
 
 #Sass
 sass:
-    sass_dir: _sass
+  sass_dir: _sass
 
 #Collections
 collections:
@@ -27,5 +27,5 @@ collections:
     output: true
   themes:
     output: true
-  add-ons:
+  plugins:
     output: true
