@@ -1,23 +1,15 @@
 ---
-main_img: ""
-title: >
-  Setting The Field Instructions Below The
-  Field
-meta_title: >
-  Setting The Field Instructions Below The
-  Field When Using Statamic CMS.
+title: "Setting The Field Instructions Below The Field"
+layout: post
 meta_desc: >
   This quick tip enables you to display
   your field instructions below the field
   instead of on top of it.
-alt_title: ""
 author: garethredfern
-featured: not_featured
 categories:
   - fields
 tags:
   - tips
-video: ""
 summary: >
   This quick tip enables you to display
   your field instructions below the field

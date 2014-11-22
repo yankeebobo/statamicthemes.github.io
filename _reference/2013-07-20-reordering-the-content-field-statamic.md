@@ -1,21 +1,17 @@
 ---
-main_img: ""
-title: Reordering The Content Field Statamic
-meta_title: ""
+title: "Reordering The Content Field Statamic"
+layout: post
 meta_desc: >
   Sometimes you may want to change the
   order of the content field where
   Statamic, by default, always displays it
   last. This can be easily changed using
   this quick tip.
-alt_title: ""
 author: garethredfern
-featured: not_featured
 categories:
   - fields
 tags:
   - tips
-video: ""
 summary: >
   Sometimes you may want to change the
   order of the content field where

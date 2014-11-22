@@ -1,20 +1,16 @@
 ---
-main_img: ""
-title: 'Output First & Last Name Of Author'
-meta_title: ""
+title: "Output First & Last Name Of Author"
+layout: post
 meta_desc: >
   Sometimes you need to have the first and
   last name of a post author display when
   using Statamic. With this simple snippet
   you can easily do it.
-alt_title: ""
 author: garethredfern
-featured: is_featured
 categories:
   - members
 tags:
   - tips
-video: ""
 summary: >
   Sometimes you need to have the first and
   last name of a post author display.

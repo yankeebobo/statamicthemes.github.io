@@ -1,17 +1,20 @@
 ---
-main_img: ""
-title: Accessing Single Grid Rows
-meta_title: ""
-meta_desc: "Want to access a single grid row and conditionally find out if it's empty? Using the grid index you can do this easily."
-alt_title: ""
+title: "Accessing Single Grid Rows"
+layout: post
+meta_desc: >
+  Want to access a single grid row and conditionally
+  find out if it's empty? Using the grid index you
+  can do this easily.
 author: garethredfern
-featured: not_featured
 categories:
   - reference
 tags:
   - grid
-video: ""
-summary: "Want to access a single grid row and conditionally find out if it's empty? Using the grid index you can do this easily, this code snippet provides you with a way to micro manage grid content."
+summary: >
+  Want to access a single grid row and conditionally
+  find out if it's empty? Using the grid index you can
+  do this easily, this code snippet provides you with
+  a way to micro manage grid content.
 ---
 
 {% raw %}

@@ -1,19 +1,15 @@
 ---
-main_img: ""
-title: Fieldset Kitchen Sink
-meta_title: "List Of Statamic's Default Fields"
+title: "List Of Statamic's Default Fields"
+layout: post
 meta_desc: >
   All the default field types and their
   minimum required settings useful as a
   quick guide when developing your
   Statamic websites.
-alt_title: ""
 author: garethredfern
-featured: not_featured
 categories:
   - template tags
 tags: ""
-video: ""
 summary: >
   All the default field types and their
   minimum required settings courtesy of
