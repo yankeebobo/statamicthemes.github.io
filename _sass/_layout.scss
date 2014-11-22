@@ -9,13 +9,13 @@
 * { box-sizing: border-box; }
 html { background-color: $lighterGrey; }
 body { background-color: $white; }
-.container {
+.constrain {
   margin: 0 auto;
   max-width: 42em;
   padding: 0 1.5em;
 }
 header[role="banner"] {
-  padding: 1.5em 0;
+  padding: 1em 0;
   background-color: $lighterGrey;
   border-bottom: 0.1em solid darken($lighterGrey, 10%);
 }
@@ -24,4 +24,8 @@ footer[role="contentinfo"] {
   margin-top: 1.5em;
   background-color: $lighterGrey;
   border-top: 0.1em solid darken($lighterGrey, 10%);
+  small {
+    display: block;
+    text-align: center;
+  }
 }

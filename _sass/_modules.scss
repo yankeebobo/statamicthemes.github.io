@@ -9,20 +9,14 @@
 // Modules can sometimes sit within other Modules, too.
 // Each Module should be designed to exist as a standalone component.
 
-.container { font-size: 1.1em; }
+.constrain { font-size: 1.1em; }
 .main__heading { text-align: center; }
 .logo {
   margin-top: 1em;
-  font-size: 1.8em;
-  margin-bottom: 1em;
+  margin-bottom: 0;
   text-align: center;
 }
 .pagination { text-align: center; font-size: 0.875em; color: $lightGrey; }
-
-.btn-back {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-}
 
 .article { padding-top: 0.5em; padding-bottom: 0.5em; }
 .article__meta {
@@ -32,15 +26,24 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+
 .article__summary a,
 .article__summary a:visited,
 .article__content a,
 .article__content a:visited { color: $cs-font; border-bottom: 0.1em dotted; }
+.article__summary a:hover,
+.article__summary a:focus,
+.article__content a:hover,
+.article__content a:focus { color: $cs-font; border-bottom: 0.1em solid; }
+
 .article__summary > p { margin-top: 0; }
 .article__video,
 .article__img { margin-bottom: 1em; }
 .article__more { text-transform: uppercase; font-size: 0.875em; }
-.article__img { padding: 0.5em; border: 0.1em solid $lighterGrey; }
+.article__img {
+  padding: 0.5em;
+  border: 0.1em solid $lighterGrey;
+}
 .article__heading { margin-bottom: 0; }
 .article__footer {
   margin-top: 2em;

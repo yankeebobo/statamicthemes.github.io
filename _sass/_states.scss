@@ -7,57 +7,17 @@
 // A message may be in a success or error state.
 // States are generally applied to the same element as a layout rule or applied to the same element as a base module class.
 
-// LINKS & NAV
-// ==============================================================
-
-.js .nav__list { display: none; } // hide nav on small screens
-
-a {
-  &:link, &:visited { color: $normal; }
-  &:hover, &:active, &:focus { color: $normal; }
-}
-.article__more a {
-  &:link, &:visited { color: $normal; }
-  &:hover, &:active, &:focus { color: $normal; }
-}
-.btn {
-  &:link, &:visited { color: $white; }
-  &:hover, &:active, &:focus { color: $white; }
-}
-.nav__button {
-  &:link, &:visited { color: $white; }
-  &:hover, &:active, &:focus { color: $white; }
-}
-.nav__button.open { color: $cs-a1; }
-.nav__listItem .nav__link {
-  &:link, &:visited { color: $white; }
-  &:hover, &:active, &:focus { color: $white; background-color: $cs-a1; }
-}
-.article__summary a:hover,
-.article__summary a:focus,
-.article__content a:hover,
-.article__content a:focus { color: $cs-font; border-bottom: 0.1em solid; }
-
 // MUMMY BEAR
 // ==============================================================
 @media (min-width: $mummyBear) {
 
   body { font-size: 1em; }
-  .logo { font-size: 2.8em; }
-  .footer__text {
-    div { display: inline; }
-  }
 
 }
 
 // DADDY BEAR
 // ==============================================================
 @media (min-width: $daddyBear) {
-
-  h1 { font-size: 3.797em; }
-  h2 { font-size: 2.531em; }
-  h3 { font-size: 1.688em; }
-  h4,h5,h6 { font-size: 1.125em; }
 
   .nav__list {
     text-align: center;
@@ -67,8 +27,6 @@ a {
       &:last-child { margin-right: 0; }
     }
   }
-
-  .logo { font-size: 3.797em; }
 
   .js nav[role="navigation"] ul {
     display: block; // display nav on large screens

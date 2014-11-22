@@ -24,9 +24,9 @@ body {
   background-color: $cs-bodyBg;
   font-weight: $mainFontWeight;
 }
-h1 { font-size: em(36); margin-top: 0; margin-bottom: 0; }
-h2 { font-size: em(24); margin-top: 0.2em; margin-bottom: 0; }
-h3 { font-size: em(18); margin-top: 0.2em; margin-bottom: 0; }
+h1 { font-size: em(38); margin-top: 0; margin-bottom: 0; }
+h2 { font-size: em(32); margin-top: 0.2em; margin-bottom: 0; }
+h3 { font-size: em(20); margin-top: 0.2em; margin-bottom: 0; }
 h4 { font-size: em(16); margin-top: 0.2em; margin-bottom: 0; }
 h5 { font-size: em(16); margin-top: 0.2em; margin-bottom: 0; }
 h6 { font-size: em(16); margin-top: 0.2em; margin-bottom: 0; }
@@ -44,7 +44,7 @@ h4,h5,h6 { margin-bottom: 0; }
 h1+ p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p { margin-top: 0; }
 a {
   color: $cs-font;
-  text-decoration: underline;
+  text-decoration: none;
   a:link, &:visited { color: $cs-font; }
   &:hover, &:active, &:focus { color: $cs-font; text-decoration: none; }
 }
