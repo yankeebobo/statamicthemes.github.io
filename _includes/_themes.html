@@ -1,0 +1,14 @@
+<main role="main">
+  <h2 class="main__heading">{{ page.title }}</h2>
+
+  <section class="articles">
+    <ol>
+      {% for theme in site.themes reversed %}
+      <li>
+        <a href="{{ theme.url }}">{{ theme.title }}</a>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+</main><!-- END role="main" -->
