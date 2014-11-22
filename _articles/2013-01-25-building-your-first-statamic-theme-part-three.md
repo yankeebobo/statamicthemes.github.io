@@ -12,7 +12,8 @@ categories:
   - tutorials
 tags:
   - theme building
-summary: > You have all your files and folders
+summary: >
+  You have all your files and folders
   set up and I have taken you through how the
   layout template works; using Statamic's tags
   to render the CSS, JS and template content.
