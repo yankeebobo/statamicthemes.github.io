@@ -13,6 +13,7 @@
   padding: 0 1em;
   max-width: 42em;
 }
+main { min-height: 25em; }
 header[role="banner"] {
   padding: 1em 0;
   background-color: $lighterGrey;
