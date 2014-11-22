@@ -1,0 +1,14 @@
+<main role="main">
+  <h2 class="main__heading">{{ page.title }}</h2>
+
+  <section class="articles">
+    <ol>
+      {% for article in site.articles reversed %}
+      <li>
+        <a href="{{ article.url }}">{{ article.title }}</a>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+</main><!-- END role="main" -->
