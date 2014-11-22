@@ -1,5 +1,6 @@
 ---
 title: "Get File Info"
+layout: post
 meta_desc: >
   A simple Statamic plugin to output file information.
 author: garethredfern
