@@ -1,7 +1,6 @@
 ---
-main_img: ""
-title: Customising The Redactor Field Statamic
-meta_title: ""
+title: "Customising The Redactor Field Statamic"
+layout: post
 meta_desc: >
   A short screencast that takes you
   through how to customise the Redactor
@@ -9,9 +8,7 @@ meta_desc: >
   more user friendly and removing some of
   the formatting tags available to keep
   your pages semantic.
-alt_title: ""
 author: garethredfern
-featured: not_featured
 categories:
   - videos
 tags: ""

@@ -1,7 +1,6 @@
 ---
-main_img: ""
 title: "Building Your First Statamic Theme Part One"
-meta_title: ""
+layout: post
 meta_desc: >
   The first article in the three part
   series on building your first Statamic
@@ -9,14 +8,11 @@ meta_desc: >
   you through the key elements with plenty
   of helper links through to the main
   Statamic documentation.
-alt_title: ""
 author: garethredfern
-featured: not_featured
 categories:
   - tutorials
 tags:
   - theme building
-video: ""
 summary: >
   Statamic makes it really easy to start
   building websites, and once you get an

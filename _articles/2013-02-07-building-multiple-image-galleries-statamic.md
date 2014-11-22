@@ -1,24 +1,23 @@
 ---
-main_img: ""
-title: >
-  Building Multiple Image Galleries In
-  Statamic
-meta_title: ""
+title: "Building Multiple Image Galleries In Statamic"
+layout: post
 meta_desc: >
   This is a follow up post to Build A
   Simple Image Gallery. Where I will look
   at how to create multiple galleries on a
   Statamic website using entries rather
   than a single page.
-alt_title: ""
 author: garethredfern
-featured: not_featured
 categories:
   - tutorials
 tags:
   - image gallery
-video: ""
-summary: 'This is a follow up post to [Build A Simple Image Gallery](http://www.statamicthemes.com/articles/building-a-simple-image-gallery-statamic). Where I will look at how to create multiple galleries on a Statamic website using entries rather than a single page.'
+summary: >
+  This is a follow up post to
+  [Build A Simple Image Gallery](http://www.statamicthemes.com/articles/building-a-simple-image-gallery-statamic).
+  Where I will look at how to create multiple
+  galleries on a Statamic website using entries
+  rather than a single page.
 ---
 
 ### Create The Gallery Content Folder
@@ -34,7 +33,7 @@ fields:
   _template: # note the prefixed _underscore
     display: Template
     type: templates
-    
+
   gallery:
     display: Image Gallery
     type: grid
@@ -54,7 +53,7 @@ fields:
   content:
     type: hidden
 ~~~
-  
+
 The first thing to notice is that there is a `type: number` field, what this does is tell Statamic that you want to use listings which are ordered by number. The other option is to use `type: date` which would tell Statamic you want to order the entries by date. Whichever way you would like to go it is important that you must choose one or the other for the listing to work.
 
 After setting the type of listing you want to use you can then set up your fields as we did for the simple gallery. If you need a refresher on what all the fields do have a look back at the [Simple Gallery](http://www.statamicthemes.com/articles/building-a-simple-image-gallery-statamic) article. One more field, in addition to the simple gallery, is the template selection field. I will come on to why I have chosen to add this later on in the post.

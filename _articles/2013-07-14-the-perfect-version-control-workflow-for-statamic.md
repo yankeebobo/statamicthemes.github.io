@@ -1,14 +1,22 @@
 ---
-title: The Perfect Version Control Workflow For Statamic?
-meta_desc: "A workflow using Statamic that let's you keep your complete site version controlled including content published through the control panel."
+title: "The Perfect Version Control Workflow For Statamic?"
+meta_desc: >
+  A workflow using Statamic that let's you keep your complete
+  site version controlled including content published through
+  the control panel.
 author: garethredfern
-featured: not_featured
 categories:
   - tutorials
 tags:
   - git
   - version control
-summary: The more you use Statamic the more you love it, everything can be stored in one place and as long as you use a private repo you can store everything in your version control hosting tool of choice. In this post I will run through my workflow of moving site content and files seamlessly between Bitbucket, my local machine, development and production servers.
+summary: >
+  The more you use Statamic the more you love it, everything
+  can be stored in one place and as long as you use a private
+  repo you can store everything in your version control hosting
+  tool of choice. In this post I will run through my workflow
+  of moving site content and files seamlessly between Bitbucket,
+  my local machine, development and production servers.
 ---
 With Statamic your content is stored as flat markdown files, and for me this was one of the massive draws to use it on as many projects as possible. Finally you could develop using real content locally and keep that content version controlled, making moving between development and production a dream to do. Yes I had been version controlling my theme and app files prior to using Statamic, but you always had the issue of trying to keep a database in sync with new content and custom fields, as many of you reading this will know, databases are a pain to keep in sync.
 
@@ -23,7 +31,7 @@ Initially I would just FTP into the server and pull down any content and images 
 First let me say, I am not a terminal or a git master I used to shy away from both, turning to [Git Tower](http://www.git-tower.com) to do all my git stuff and [Transmit](http://panic.com/transmit) for uploading my files to the server, therefore avoiding the terminal wherever possible. I warn you now that my new process does require a bit of terminal work, but trust me I now find the little bit I do, as enjoyable as using Statamic, and it really isn't that scary, trust me.
 
 ### Git On The Server
-Anyone who uses git (and you all should be) will have git installed locally, whether that be through downloading from the [Git install page](http://git-scm.com/downloads) or as part of your GUI install (Git Tower etc.). This works great for your day to day work and is all most people will need normally, but you can also install git on any server (I say any, you would need to check with your hosting provider, as SSH access is required). I googled and asked around and it turns out that installing git on the server just requires a simple command through SSH. Log in to your server as root and then type. 
+Anyone who uses git (and you all should be) will have git installed locally, whether that be through downloading from the [Git install page](http://git-scm.com/downloads) or as part of your GUI install (Git Tower etc.). This works great for your day to day work and is all most people will need normally, but you can also install git on any server (I say any, you would need to check with your hosting provider, as SSH access is required). I googled and asked around and it turns out that installing git on the server just requires a simple command through SSH. Log in to your server as root and then type.
 
 ~~~.language-markup
 yum install git

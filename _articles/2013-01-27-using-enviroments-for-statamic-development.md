@@ -1,9 +1,6 @@
 ---
-main_img: ""
-title: >
-  Using Environments For Statamic
-  Development
-meta_title: ""
+title: "Using Environments For Statamic Development"
+layout: post
 meta_desc: >
   Statamic gives you the ability to set up
   different environments for your site
@@ -13,14 +10,11 @@ meta_desc: >
   one way you can quickly put environments
   to work by disabling the analytics
   tracking on your development site.
-alt_title: ""
 author: garethredfern
-featured: not_featured
 categories:
   - tutorials
 tags:
   - tips
-video: ""
 summary: >
   Statamic gives you the ability to set up
   different environments for your site
@@ -47,7 +41,7 @@ _environments:
   	- '*.com'
 ~~~
 
-You can name your environments whatever you like and there is no limit to the number of environments you can have, for this example I will stick with what is already set up. Underneath each environment name you set the url that will trigger the environment. I use [MAMP Pro](http://www.mamp.info/en/mamp-pro/index.html) for my development work and this enables me to create friendly dev url's such as site.dev, you will notice that one of the url patterns is `*.dev` what this basically means is that any url that ends in .dev will trigger the dev environment. 
+You can name your environments whatever you like and there is no limit to the number of environments you can have, for this example I will stick with what is already set up. Underneath each environment name you set the url that will trigger the environment. I use [MAMP Pro](http://www.mamp.info/en/mamp-pro/index.html) for my development work and this enables me to create friendly dev url's such as site.dev, you will notice that one of the url patterns is `*.dev` what this basically means is that any url that ends in .dev will trigger the dev environment.
 
 If you are using the free version of MAMP you will see that one of the url patterns is `http://localhost*`  what this is saying is that any url that begins with http://localhost will trigger the dev environment.
 

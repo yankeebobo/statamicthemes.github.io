@@ -1,21 +1,17 @@
 ---
-main_img: ""
-title: Hiding Templates From The Control Panel
-meta_title: ""
+title: "Hiding Templates From The Control Panel"
+layout: post
 meta_desc: >
   This is a quick look at how you can hide
   templates from the template select field
   in the control panel, simplifying what
   your client sees in the admin area for
   Statamic.
-alt_title: ""
 author: garethredfern
-featured: not_featured
 categories:
   - control panel
 tags:
   - tips
-video: ""
 summary: >
   This is a quick look at how you can hide
   templates from the template select field
@@ -32,7 +28,7 @@ _template:            # note the prefixed _underscore
 	  type: templates
 ~~~
 
-This will now output all your templates as a dropdown in the control panel. 
+This will now output all your templates as a dropdown in the control panel.
 
 ### Limiting The Number Of Templates To Choose From
 What if you only want to display a couple of templates for the client to choose from? The answer is simple you set the type to `select` rather than `templates` and set which templates you would like to display as the options:

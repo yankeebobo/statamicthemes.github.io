@@ -1,15 +1,12 @@
 ---
-main_img: ""
-title: 'Part 2 - Fieldsets The Statarkers Statamic Theme'
-meta_title: ""
+title: "Part 2 - Fieldsets The Statarkers Statamic Theme"
+layout: post
 meta_desc: >
   Part 2 in the series, this screencast
   takes you through how the fieldsets and
   content areas work for the Statarkers
   theme for Statamic.
-alt_title: ""
 author: garethredfern
-featured: not_featured
 categories:
   - videos
 tags:

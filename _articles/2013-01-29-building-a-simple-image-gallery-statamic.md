@@ -1,22 +1,16 @@
 ---
-main_img: ""
-title: >
-  Building A Simple Image Gallery In
-  Statamic
-meta_title: ""
+title: "Building A Simple Image Gallery In Statamic"
+layout: post
 meta_desc: >
   In this short post I will show you how
   to build a simple image gallery with
   Statamic using the grid fieldset and
   Statamic Image Plugin.
-alt_title: ""
 author: garethredfern
-featured: not_featured
 categories:
   - tutorials
 tags:
   - image gallery
-video: ""
 summary: >
   In this short post I will show you how
   to build a simple image gallery using
@@ -132,7 +126,7 @@ fields:
         type: file
         allowed: [png, gif, jpg, jpeg]
         destination: assets/img/gallery # make sure your folder is writeable
- 
+
   content:
     type: hidden
 ~~~

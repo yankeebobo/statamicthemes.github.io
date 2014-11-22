@@ -1,15 +1,12 @@
 ---
-main_img: ""
-title: Updating Statamic Seamlessly
-meta_title: ""
+title: "Updating Statamic Seamlessly"
+layout: post
 meta_desc: >
   In this quick tutorial I take you
   through how to compare the different
   versions of Statamic so that you can
   upgrade seamlessly.
-alt_title: ""
 author: garethredfern
-featured: is_featured
 categories:
   - videos
 tags: ""

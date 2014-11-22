@@ -1,14 +1,22 @@
 ---
-title: Base Elements For Styling
-meta_title: "Base Elements For Styling A Statamic Theme"
-meta_desc: "All the common html elements laid out for you to add styling, really helpful to make sure you don't miss any styles when building your Statamic themes."
+title: "Base Elements For Styling A Statamic Theme"
+layout: post
+meta_desc: >
+  All the common html elements laid out
+  for you to add styling, really helpful
+  to make sure you don't miss any styles
+  when building your Statamic themes.
 author: garethredfern
 categories:
   - reference
 tags:
   - theme building
-layout: post
-summary: "This is the kitchen sink, all the common html elements laid out for you to add styling, really helpful to make sure you don't miss any styles, just [download](https://github.com/statamicthemes/base-elements) the file then copy and paste into a page in your `_content` folder."
+summary: >
+  This is the kitchen sink, all the common
+  html elements laid out for you to add styling,
+  really helpful to make sure you don't miss any styles,
+  just [download](https://github.com/statamicthemes/base-elements)
+  the file then copy and paste into a page in your `_content` folder.
 ---
 
 # Heading Level 1

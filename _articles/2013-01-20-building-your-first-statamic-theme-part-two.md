@@ -1,9 +1,6 @@
 ---
-main_img: ""
-title: >
-  Building Your First Statamic Theme Part
-  Two
-meta_title: ""
+title: "Building Your First Statamic Theme Part Two"
+layout: post
 meta_desc: >
   The second article in the three part
   series on building your first Statamic
@@ -11,14 +8,11 @@ meta_desc: >
   the remaining files and folders whilst
   discussing the layout template in more
   detail.
-alt_title: ""
 author: garethredfern
-featured: not_featured
 categories:
   - tutorials
 tags:
   - theme building
-video: ""
 summary: >
   In part one of Building Your First
   Statamic Theme I discussed how the

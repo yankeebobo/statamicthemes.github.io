@@ -1,22 +1,28 @@
 ---
-main_img: ""
-title: Creating A Secure Area Statamic
-meta_title: ""
+title: "Creating A Secure Area Statamic"
+layout: post
 meta_desc: >
   This article shows you how to set up a
   simple, secure, area where users are
   required to login to view content. Using
   the member tag in Statamic and some
   conditionals this is easy to do.
-alt_title: ""
 author: garethredfern
-featured: not_featured
 categories:
   - tutorials
 tags:
   - members
-video: ""
-summary: 'I recently got asked a [question on twitter](https://twitter.com/mcshefferty/status/366547890258182144) on how you could have content on your site which is protected behind a login area. Having never tried this sort of thing with Statamic, I thought it would be fun to have a go at creating a simple example. This article shows you how to set up a simple, secure, area where users are required to login to view content. Using the [member tag](http://statamic.com/learn/documentation/tags/member) in Statamic and some conditionals this is easy to do.'
+summary: >
+  I recently got asked a
+  [question on twitter](https://twitter.com/mcshefferty/status/366547890258182144)
+  on how you could have content on your site
+  which is protected behind a login area.
+  Having never tried this sort of thing with Statamic,
+  I thought it would be fun to have a go at creating a
+  simple example. This article shows you how to set up
+  a simple, secure, area where users are required to
+  login to view content. Using the [member tag](http://statamic.com/learn/documentation/tags/member)
+  in Statamic and some conditionals this is easy to do.
 ---
 
 {% raw %}

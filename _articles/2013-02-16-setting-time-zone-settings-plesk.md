@@ -1,19 +1,21 @@
 ---
-main_img: ""
-title: Setting Your Time Zone Settings In Plesk
-meta_title: ""
+title: "Setting Your Time Zone Settings In Plesk"
+layout: post
 meta_desc: >
-  When you first install Statamic you may well come across the following "Error It is not safe to rely on the system's timezone settings." Don't panic this is really easy to fix.
-alt_title: ""
+  When you first install Statamic you may well come
+  across the following "Error It is not safe to rely
+  on the system's timezone settings." Don't panic
+  this is really easy to fix.
 author: garethredfern
-featured: not_featured
 categories:
   - installing
 tags:
   - tips
-video: ""
 summary: >
-  When you first install Statamic you may well come across the following "Error It is not safe to rely on the system's timezone settings." Don't panic this is really easy to fix.
+  When you first install Statamic you may well come
+  across the following "Error It is not safe to rely
+  on the system's timezone settings." Don't panic
+  this is really easy to fix.
 ---
 This is a common issue and is caused if your timezone settings aren't correctly set in your php.ini file. You have a few options to resolve the issue and you can read how the Statamic guys recommend fixing it on their [support page](http://support.statamic.com/kb/error-messages/error-it-is-not-safe-to-rely-on-the-systems-timezone-settings).
 
@@ -49,4 +51,3 @@ So there you have it, you have a number of options for fixing the "Error It is n
 As of v1.5, you can now set your timezone in the settings file.
 
 Happy Days!
-

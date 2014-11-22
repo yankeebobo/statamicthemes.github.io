@@ -1,19 +1,21 @@
 ---
-main_img: ""
-title: Using The Location Field With Statamic
-meta_title: ""
+title: "Using The Location Field With Statamic"
+layout: post
 meta_desc: >
-  Working with the the location field type in Statamic you can easily create a dynamic location map displaying points of interest. This is an overview of how to get started.
-alt_title: ""
+  Working with the the location field type in
+  Statamic you can easily create a dynamic
+  location map displaying points of interest.
+  This is an overview of how to get started.
 author: garethredfern
-featured: not_featured
 categories:
   - tutorials
 tags:
   - location
-video: ""
 summary: >
-  Working with the the location field type in Statamic you can easily create a dynamic location map displaying points of interest. This is an overview of how to get started.
+  Working with the the location field type in
+  Statamic you can easily create a dynamic
+  location map displaying points of interest.
+  This is an overview of how to get started.
 ---
 
 {% raw %}

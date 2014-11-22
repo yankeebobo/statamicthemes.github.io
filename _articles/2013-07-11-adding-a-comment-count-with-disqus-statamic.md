@@ -1,18 +1,19 @@
 ---
-main_img: ""
-title: Adding A Comment Count With Disqus & Statamic
-meta_title: ""
+title: "Adding A Comment Count With Disqus & Statamic"
+layout: post
 meta_desc: >
-  Adding a comment count in the header or footer of your post on a Statamic site. This can be added in quite easily using Disqus' comment count script.
-alt_title: ""
+  Adding a comment count in the header or footer of
+  your post on a Statamic site. This can be added in
+  quite easily using Disqus' comment count script.
 author: garethredfern
-featured: not_featured
 categories:
   - tutorials
 tags: ""
-video: ""
 summary: >
-  Sometimes you may want to have the comment count displayed in the header or footer of your post. This can be added in quite easily using Disqus' comment count script.
+  Sometimes you may want to have the comment count
+  displayed in the header or footer of your post.
+  This can be added in quite easily using Disqus'
+  comment count script.
 ---
 
 {% raw %}
@@ -34,7 +35,7 @@ s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 </script>
 ~~~
 
-You will need to change the username to your own but other than that the script is ready to go. The final part is just appending `#disqus_thread` to your post link where you would like the comments to display. 
+You will need to change the username to your own but other than that the script is ready to go. The final part is just appending `#disqus_thread` to your post link where you would like the comments to display.
 
 ~~~.language-markup
 <a href="{{ url }}#disqus_thread">Read More</a>

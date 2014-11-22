@@ -1,14 +1,11 @@
 ---
-main_img: ""
-title: 'Part 3 - Template Partials In The Statarkers Theme For Statamic'
-meta_title: ""
+title: "Part 3 - Template Partials In The Statarkers Theme For Statamic"
+layout: post
 meta_desc: >
   Part 3 in the series, this screencast
   takes you through how the partials work
   for the Statarkers theme for Statamic.
-alt_title: ""
 author: garethredfern
-featured: not_featured
 categories:
   - videos
 tags:

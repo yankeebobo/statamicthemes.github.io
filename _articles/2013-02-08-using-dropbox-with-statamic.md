@@ -1,18 +1,26 @@
 ---
-main_img: ""
-title: Using Dropbox With Statamic
-meta_title: ""
-meta_desc: "Using Dropbox with Statamic seems to be a popular conversation on Twitter, it's something which quite a few people would like to be able to do. Here are some ideas on how you can work with Dropbox today, and what is on the horizon for the future."
-alt_title: ""
+title: "Using Dropbox With Statamic"
+layout: post
+meta_desc: >
+  Using Dropbox with Statamic seems to be
+  a popular conversation on Twitter, it's
+  something which quite a few people would
+  like to be able to do. Here are some ideas
+  on how you can work with Dropbox today,
+  and what is on the horizon for the future.
 author: garethredfern
-featured: not_featured
 categories:
   - workflow
 tags:
   - tips
   - plugins
-video: ""
-summary: "Using Dropbox with Statamic seems to be a popular conversation on Twitter, it's something which quite a few people would like to be able to do. Here are some ideas on how you can work with Dropbox today, and what is on the horizon for the future."
+summary: >
+  Using Dropbox with Statamic seems to be a
+  popular conversation on Twitter, it's
+  something which quite a few people would
+  like to be able to do. Here are some ideas
+  on how you can work with Dropbox today,
+  and what is on the horizon for the future.
 ---
 ### What I Found
 I recently put a post together on [how to integrate Dropbox into your workflow when creating content for Statamic](http://garethredfern.com/article/supercharge-your-writing-work-flow-in-statamic). Whilst this post is a nice round up of what I had found at the time it doesn't offer any plugin solutions, as to the best of my knowledge, there aren't any yet. With the advent of v1.5 and after seeing a post on the [kirby blog](http://getkirby.com/blog/kirby-meets-dropbox) (thanks to [Jon Schuster](https://twitter.com/GoodAtSmudgin)) I feel this topic deserves some more experimenting with.

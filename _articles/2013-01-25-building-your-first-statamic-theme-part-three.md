@@ -1,24 +1,24 @@
 ---
-main_img: ""
-title: >
-  Building Your First Statamic Theme Part
-  Three
-meta_title: ""
+title: "Building Your First Statamic Theme Part Three"
+layout: post
 meta_desc: >
   The last article in the three part
   series on building your first Statamic
   theme. In this final part we look at how
   to render the content in your templates
   using the super cool entries tag pair.
-alt_title: ""
 author: garethredfern
-featured: not_featured
 categories:
   - tutorials
 tags:
   - theme building
-video: ""
-summary: "You have all your files and folders set up and I have taken you through how the layout template works; using Statamic's tags to render the CSS, JS and template content. In this final part we look at how to render the content in your templates using the super cool entries tag pair."
+summary: > You have all your files and folders
+  set up and I have taken you through how the
+  layout template works; using Statamic's tags
+  to render the CSS, JS and template content.
+  In this final part we look at how to render
+  the content in your templates using the super
+  cool entries tag pair.
 ---
 
 {% raw %}

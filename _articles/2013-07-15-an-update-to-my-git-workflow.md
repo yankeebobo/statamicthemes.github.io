@@ -1,17 +1,17 @@
 ---
-main_img: ""
-title: An Update To My Git Workflow
-meta_title: ""
-meta_desc: "This is a quick update to a post I wrote  a couple of days ago on my Git workflow  with Statamic, I received a couple of  comments which I have now added to  improve things."
-alt_title: ""
+title: "An Update To My Git Workflow"
+layout: post
+meta_desc: >
+  This is a quick update to a post I wrote a
+  couple of days ago on my Git workflow  with
+  Statamic, I received a couple of  comments
+  which I have now added to  improve things.
 author: garethredfern
-featured: not_featured
 categories:
   - tutorials
 tags:
   - git
   - version control
-video: ""
 summary: >
   This is a quick update to a post I wrote
   a couple of days ago on my Git workflow
