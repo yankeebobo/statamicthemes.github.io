@@ -1,15 +1,15 @@
-<nav role="navigation" class="nav">
-  <ul id="nav" class="nav__list list-unstyled">
-    {% assign pages = site.pages | sort:"nav_order" %}
-    {% for p in pages %}
-      {% if p.title %}
-      <li class="nav__listItem">
-        <a href="{{ p.url | prepend: site.baseurl }}" class="nav__link{% if p.url == page.url %}class="current"{% endif %}">{{ p.title }}</a>
-      </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-  <a href="#nav" id="nav__button" class="nav__button">
-    Menu <span class="arrow arrow-down">&#9660;</span><span class="arrow arrow-up">&#9650;</span>
-  </a>
+<nav role="navigation" class="nav--primary">
+  <div class="constrain">
+    <a id="menu" class="nav--primary__btn">Menu</a>
+    <ul id="js-nav--primary__list" class="nav--primary__list">
+      {% assign pages = site.pages | sort:"nav_order" %}
+        {% for p in pages %}
+        {% if p.title %}
+        <li class="nav__listItem">
+          <a href="{{ p.url | prepend: site.baseurl }}" class="nav__link{% if p.url == page.url %} current{% endif %}">{{ p.title }}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div><!-- END .constrain -->
 </nav>

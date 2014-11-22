@@ -7,12 +7,11 @@
 // The minor components such as a callout, or login form, or a navigation item sit within the scope of major components such as a header or footer.
 
 * { box-sizing: border-box; }
-html { background-color: $lighterGrey; }
-body { background-color: $white; }
+
 .constrain {
   margin: 0 auto;
+  padding: 0 1em;
   max-width: 42em;
-  padding: 0 1.5em;
 }
 header[role="banner"] {
   padding: 1em 0;
@@ -28,4 +27,10 @@ footer[role="contentinfo"] {
     display: block;
     text-align: center;
   }
+}
+
+@media (min-width: $mummyBear) {
+
+  body { font-size: 1em; }
+
 }

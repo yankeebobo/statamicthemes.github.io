@@ -9,11 +9,9 @@
 // Modules can sometimes sit within other Modules, too.
 // Each Module should be designed to exist as a standalone component.
 
-.constrain { font-size: 1.1em; }
 .main__heading { text-align: center; }
 .logo {
-  margin-top: 1em;
-  margin-bottom: 0;
+  margin: 0;
   text-align: center;
 }
 .pagination { text-align: center; font-size: 0.875em; color: $lightGrey; }
@@ -52,43 +50,4 @@
   padding-bottom: 1em;
   border-top: 0.1em solid $lighterGrey;
   border-bottom: 0.1em solid $lighterGrey;
-}
-.nav {
-  width: 100%;
-  z-index: 10;
-  position: fixed;
-  background-color: $black;
-  text-transform: uppercase;
-}
-.arrow {
-  font-size: 0.875em;
-  text-transform: none;
-}
-.arrow-up { display: none; }
-.nav__list { margin: 0; }
-.nav__link {
-  padding: 1em;
-  display: block;
-}
-.nav__listItem:nth-child(2n) .nav__link {
-  background-color: lighten($black, 5%);
-}
-.nav__listItem:nth-child(3n) .nav__link {
-  background-color: lighten($black, 10%);
-}
-.nav__listItem:nth-child(4n) .nav__link {
-  background-color: lighten($black, 15%);
-}
-.nav__listItem:nth-child(5n) .nav__link {
-  background-color: lighten($black, 20%);
-}
-.nav__listItem:nth-child(6n) .nav__link {
-  background-color: lighten($black, 25%);
-}
-.nav__button {
-  padding: 0.8em;
-  display: block;
-  font-size: 0.9em;
-  text-align: right;
-  background-color: $black;
 }
