@@ -16,6 +16,7 @@
 main { min-height: 25em; }
 header[role="banner"] {
   padding: 1em 0;
+  margin-bottom: 1em;
   background-color: $lighterGrey;
   border-bottom: 0.1em solid darken($lighterGrey, 10%);
 }
@@ -27,6 +28,7 @@ footer[role="contentinfo"] {
   small {
     display: block;
     text-align: center;
+    text-transform: uppercase;
   }
 }
 
