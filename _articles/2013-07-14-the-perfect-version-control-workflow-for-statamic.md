@@ -1,5 +1,6 @@
 ---
 title: "The Perfect Version Control Workflow For Statamic?"
+layout: post
 meta_desc: >
   A workflow using Statamic that let's you keep your complete
   site version controlled including content published through
@@ -61,7 +62,7 @@ On the linux server running Plesk I needed to be logged in as root to access the
 ### The Workflow
 Once you are finally set up and your Git host and server can speak to each other you are ready to create your first site and start with the new worklow.
 
-**Please see comments from Ant Hubbard below and turn to my [super improved process](http://www.statamicthemes.com/articles/an-update-to-my-git-workflow) from here on in.**
+**Please see my [improved process](http://www.statamicthemes.com/articles/an-update-to-my-git-workflow) from here on in.**
 
 #### Adding Your Initial Site
 1. Create an empty Bitbucket or Github private repository.
