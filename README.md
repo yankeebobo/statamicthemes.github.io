@@ -10,4 +10,4 @@ Statamic Themes has now moved over to GitHub pages (blog post to follow on why).
 - Update main README.
 - Add XML feed.
 - Add tags and category links.
-- Add some style & icons.
+- Add some more style.
