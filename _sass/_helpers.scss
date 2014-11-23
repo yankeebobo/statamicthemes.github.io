@@ -14,7 +14,7 @@
 }
 // END PLACEHOLDERS ============================================================
 
-.lead { font-size: 1.3em; }
+.lead { font-size: 1.2em; line-height: 1.3; }
 .list--unstyled { @extend %no_list; }
 .list--indent { padding-left: 0.5em; }
 .hide, .screen-reader-text {
