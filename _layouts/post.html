@@ -27,7 +27,7 @@ layout: default
 
   <footer class="article__footer">
     <ul>
-      <li><a href="#" class="link-highlight">Back to Posts</a></li>
+      <li><a href="/{{ page.collection }}" class="link-highlight">Back to {{ page.collection | capitalize }}</a></li>
       {% if page.preview_link %}
       <li><a href="{{ page.preview_link }}" class="link-highlight">Preview</a></li>
       {% endif %}
