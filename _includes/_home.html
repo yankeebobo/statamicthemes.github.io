@@ -8,12 +8,10 @@
     <ol>
       {% for article in site.articles reversed limit:10 %}
       <li>
-        <div>
-          Posted: {{ article.date | date: "%d %b, %Y" }}
-        </div>
-        <div>
-          <a href="{{ article.url }}">{{ article.title }}</a>
-        </div>
+        <a href="{{ article.url }}">
+          <div>Posted: {{ article.date | date: "%d %b, %Y" }}</div>
+          <div>{{ article.title }}</div>
+        </a>
       </li>
       {% endfor %}
     </ol>
