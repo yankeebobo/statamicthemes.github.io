@@ -2,13 +2,6 @@
 title: "Building Your First Statamic Theme Part One"
 layout: post
 date: 2013-01-19
-meta_desc: >
-  The first article in the three part
-  series on building your first Statamic
-  theme. In this first part I will take
-  you through the key elements with plenty
-  of helper links through to the main
-  Statamic documentation.
 author: garethredfern
 categories:
   - tutorials

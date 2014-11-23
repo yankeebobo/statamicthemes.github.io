@@ -2,13 +2,6 @@
 title: "Customising The Redactor Field Statamic"
 layout: post
 date: 2013-07-28
-meta_desc: >
-  A short screencast that takes you
-  through how to customise the Redactor
-  fieldset in Statamic. Making the toolbar
-  more user friendly and removing some of
-  the formatting tags available to keep
-  your pages semantic.
 author: garethredfern
 categories:
   - videos

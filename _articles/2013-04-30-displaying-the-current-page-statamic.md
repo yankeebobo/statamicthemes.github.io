@@ -2,11 +2,6 @@
 title: "Displaying The Current Page In Statamic"
 layout: post
 date: 2013-04-30
-meta_desc: >
-  This tutorial shows you a really simple
-  way to display the current page you are
-  on when using pagination on your
-  Statamic websites.
 author: garethredfern
 categories:
   - tutorials

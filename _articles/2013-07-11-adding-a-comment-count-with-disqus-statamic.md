@@ -2,10 +2,6 @@
 title: "Adding A Comment Count With Disqus & Statamic"
 layout: post
 date: 2013-07-11
-meta_desc: >
-  Adding a comment count in the header or footer of
-  your post on a Statamic site. This can be added in
-  quite easily using Disqus' comment count script.
 author: garethredfern
 categories:
   - tutorials

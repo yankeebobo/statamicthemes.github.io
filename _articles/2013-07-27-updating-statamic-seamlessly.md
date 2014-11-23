@@ -2,11 +2,6 @@
 title: "Updating Statamic Seamlessly"
 layout: post
 date: 2013-07-27
-meta_desc: >
-  In this quick tutorial I take you
-  through how to compare the different
-  versions of Statamic so that you can
-  upgrade seamlessly.
 author: garethredfern
 categories:
   - videos

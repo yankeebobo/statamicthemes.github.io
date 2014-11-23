@@ -2,13 +2,6 @@
 title: "Using Dropbox With Statamic"
 layout: post
 date: 2013-02-08
-meta_desc: >
-  Using Dropbox with Statamic seems to be
-  a popular conversation on Twitter, it's
-  something which quite a few people would
-  like to be able to do. Here are some ideas
-  on how you can work with Dropbox today,
-  and what is on the horizon for the future.
 author: garethredfern
 categories:
   - workflow

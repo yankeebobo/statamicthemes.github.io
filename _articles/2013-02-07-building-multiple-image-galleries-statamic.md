@@ -2,12 +2,6 @@
 title: "Building Multiple Image Galleries In Statamic"
 layout: post
 date: 2013-02-07
-meta_desc: >
-  This is a follow up post to Build A
-  Simple Image Gallery. Where I will look
-  at how to create multiple galleries on a
-  Statamic website using entries rather
-  than a single page.
 author: garethredfern
 categories:
   - tutorials

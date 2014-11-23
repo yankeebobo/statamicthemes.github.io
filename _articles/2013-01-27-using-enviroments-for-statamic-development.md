@@ -2,15 +2,6 @@
 title: "Using Environments For Statamic Development"
 layout: post
 date: 2013-01-27
-meta_desc: >
-  Statamic gives you the ability to set up
-  different environments for your site
-  e.g. a production environment and a
-  development environment. This is super
-  useful, in this short post I show you
-  one way you can quickly put environments
-  to work by disabling the analytics
-  tracking on your development site.
 author: garethredfern
 categories:
   - tutorials

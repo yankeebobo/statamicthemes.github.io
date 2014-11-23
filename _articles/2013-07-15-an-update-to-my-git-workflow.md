@@ -2,11 +2,6 @@
 title: "An Update To My Git Workflow"
 layout: post
 date: 2013-07-15
-meta_desc: >
-  This is a quick update to a post I wrote a
-  couple of days ago on my Git workflow  with
-  Statamic, I received a couple of  comments
-  which I have now added to  improve things.
 author: garethredfern
 categories:
   - tutorials

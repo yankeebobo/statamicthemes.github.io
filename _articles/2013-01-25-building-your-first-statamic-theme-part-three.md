@@ -2,12 +2,6 @@
 title: "Building Your First Statamic Theme Part Three"
 layout: post
 date: 2013-01-25
-meta_desc: >
-  The last article in the three part
-  series on building your first Statamic
-  theme. In this final part we look at how
-  to render the content in your templates
-  using the super cool entries tag pair.
 author: garethredfern
 categories:
   - tutorials

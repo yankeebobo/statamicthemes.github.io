@@ -2,15 +2,6 @@
 title: "Part 1 - Installing The Statarkers Statamic Theme"
 layout: post
 date: 2013-07-30
-meta_desc: >
-  This is part one of a series on how to
-  build a website using the Statarkers
-  theme for Statamic. The Statarkers theme
-  is a boilerplate which enables you to
-  quickly begin creating Statamic themes
-  and is loosely based on the Starkers
-  theme created by Elliot Jay Stocks for
-  Wordpress.
 author: garethredfern
 categories:
   - videos

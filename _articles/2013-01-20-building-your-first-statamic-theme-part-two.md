@@ -2,13 +2,6 @@
 title: "Building Your First Statamic Theme Part Two"
 layout: post
 date: 2013-01-20
-meta_desc: >
-  The second article in the three part
-  series on building your first Statamic
-  theme. In this second part I will add
-  the remaining files and folders whilst
-  discussing the layout template in more
-  detail.
 author: garethredfern
 categories:
   - tutorials

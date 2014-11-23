@@ -2,12 +2,6 @@
 title: "Hiding Templates From The Control Panel"
 layout: post
 date: 2013-02-15
-meta_desc: >
-  This is a quick look at how you can hide
-  templates from the template select field
-  in the control panel, simplifying what
-  your client sees in the admin area for
-  Statamic.
 author: garethredfern
 categories:
   - control panel
