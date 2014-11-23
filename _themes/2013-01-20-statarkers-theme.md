@@ -1,11 +1,6 @@
 ---
 title: "The Statarkers Theme For Statamic"
 layout: post
-meta_desc: >
-  A minimal Statamic theme to use as a bootstrap
-  on your projects. The styling is left to you but
-  all the templates are set-up to display page
-  content and blog entries.
 author: garethredfern
 categories:
   - starter themes
@@ -13,8 +8,8 @@ tags:
   - blank
   - minimal
 summary: >
-  A bare-bones Statamic theme created to act as a
-  starting point. This theme is a blank canvas and
+  A minimal Statamic theme created to act as a
+  starting point. This theme is a minimal canvas and
   will enable you to get up and running with a site
   build in a matter of minutes.
 download_link: https://github.com/statamicthemes/statarkers-theme

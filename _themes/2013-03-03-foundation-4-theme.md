@@ -1,13 +1,6 @@
 ---
 title: "Foundation 4 Statamic Theme"
 layout: post
-meta_desc: >
-  This Statamic theme has been built
-  on top of the Foundation 4 framework,
-  the theme has been kept as simple as
-  possible so that it can form a base
-  to build off, but can be used straight
-  out of the box if you choose.
 author: garethredfern
 categories:
   - starter themes
