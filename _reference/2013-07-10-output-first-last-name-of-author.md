@@ -2,11 +2,6 @@
 title: "Output First & Last Name Of Author"
 layout: post
 date: 2013-07-10
-meta_desc: >
-  Sometimes you need to have the first and
-  last name of a post author display when
-  using Statamic. With this simple snippet
-  you can easily do it.
 author: garethredfern
 categories:
   - members

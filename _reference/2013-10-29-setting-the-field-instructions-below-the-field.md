@@ -2,10 +2,6 @@
 title: "Setting The Field Instructions Below The Field"
 layout: post
 date: 2013-10-29
-meta_desc: >
-  This quick tip enables you to display
-  your field instructions below the field
-  instead of on top of it.
 author: garethredfern
 categories:
   - fields

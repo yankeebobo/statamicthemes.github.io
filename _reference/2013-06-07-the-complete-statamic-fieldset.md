@@ -2,19 +2,15 @@
 title: "List Of Statamic's Default Fields"
 layout: post
 date: 2013-06-07
-meta_desc: >
-  All the default field types and their
-  minimum required settings useful as a
-  quick guide when developing your
-  Statamic websites.
 author: garethredfern
 categories:
   - template tags
 tags: ""
 summary: >
   All the default field types and their
-  minimum required settings courtesy of
-  Jack McDade.
+  minimum required settings useful as a
+  quick guide when developing your
+  Statamic websites.
 ---
 
 ~~~yaml

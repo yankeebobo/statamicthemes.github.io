@@ -2,10 +2,6 @@
 title: "Accessing Single Grid Rows"
 layout: post
 date: 2013-08-17
-meta_desc: >
-  Want to access a single grid row and conditionally
-  find out if it's empty? Using the grid index you
-  can do this easily.
 author: garethredfern
 categories:
   - reference

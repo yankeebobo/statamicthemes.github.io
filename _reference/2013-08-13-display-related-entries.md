@@ -2,10 +2,6 @@
 title: "Display Related Entries"
 layout: post
 date: 2013-08-13
-meta_desc: >
-  Only display entries which have been
-  selected using the related fieldset when
-  building a Statamic website.
 author: garethredfern
 categories:
   - reference

@@ -2,11 +2,6 @@
 title: "Check For An Empty Grid Field"
 layout: post
 date: 2013-05-16
-meta_desc: >
-  Sometimes you might want to check if a
-  grid field is empty and if it is do not
-  display that grid row. Use this Statamic
-  snippet to do just that.
 author: garethredfern
 categories:
   - template tags

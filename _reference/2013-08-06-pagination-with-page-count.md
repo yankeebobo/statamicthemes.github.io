@@ -2,11 +2,6 @@
 title: "Pagination With Page Count"
 layout: post
 date: 2013-08-06
-meta_desc: >
-  This Statamic code snippet will give you
-  pagination links with a page count of
-  total pages, a common requirement on
-  blogs and listings pages.
 author: garethredfern
 categories:
   - theme building

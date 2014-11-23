@@ -2,11 +2,6 @@
 title: "Output Total Number Of Entries"
 layout: post
 date: 2013-09-24
-meta_desc: >
-  Ever need to output the total number of
-  entries in a folder, maybe when you are
-  creating some kind of pagination with
-  Statamic?
 author: garethredfern
 categories:
   - reference
