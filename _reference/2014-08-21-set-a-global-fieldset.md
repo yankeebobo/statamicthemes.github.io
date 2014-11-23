@@ -1,6 +1,7 @@
 ---
 title: "Set A Global Fieldset"
 layout: post
+date: 2013-08-21
 meta_desc: >
   In Statamic If you want to set a global
   fieldset that gets used if no fieldset

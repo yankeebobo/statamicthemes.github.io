@@ -1,6 +1,7 @@
 ---
 title: "Building Your First Statamic Theme Part One"
 layout: post
+date: 2013-01-19
 meta_desc: >
   The first article in the three part
   series on building your first Statamic

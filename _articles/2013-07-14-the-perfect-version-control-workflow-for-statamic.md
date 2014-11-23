@@ -1,6 +1,7 @@
 ---
 title: "The Perfect Version Control Workflow For Statamic?"
 layout: post
+date: 2013-07-14
 meta_desc: >
   A workflow using Statamic that let's you keep your complete
   site version controlled including content published through

@@ -1,6 +1,7 @@
 ---
 title: "List Of Statamic's Default Fields"
 layout: post
+date: 2013-06-07
 meta_desc: >
   All the default field types and their
   minimum required settings useful as a

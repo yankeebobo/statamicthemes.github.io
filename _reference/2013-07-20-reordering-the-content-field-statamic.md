@@ -1,6 +1,7 @@
 ---
 title: "Reordering The Content Field Statamic"
 layout: post
+date: 2013-07-20
 meta_desc: >
   Sometimes you may want to change the
   order of the content field where

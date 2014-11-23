@@ -1,6 +1,7 @@
 ---
 title: "Creating A Simple Contact Form With Raven"
 layout: post
+date: 2014-07-11
 meta_desc: >
   A simple example to help you get up and running
   with Raven forms for Statamic.

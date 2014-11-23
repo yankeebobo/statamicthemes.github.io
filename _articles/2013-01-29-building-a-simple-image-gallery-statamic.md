@@ -1,6 +1,7 @@
 ---
 title: "Building A Simple Image Gallery In Statamic"
 layout: post
+date: 2013-01-29
 meta_desc: >
   In this short post I will show you how
   to build a simple image gallery with

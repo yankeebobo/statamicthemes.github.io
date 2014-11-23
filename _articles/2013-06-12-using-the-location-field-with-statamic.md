@@ -1,6 +1,7 @@
 ---
 title: "Using The Location Field With Statamic"
 layout: post
+date: 2013-06-12
 meta_desc: >
   Working with the the location field type in
   Statamic you can easily create a dynamic

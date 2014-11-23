@@ -1,6 +1,7 @@
 ---
 title: "Accessing Member Fields"
 layout: post
+date: 2013-08-21
 meta_desc: >
   If you need to output a member field and
   don't want to wrap your content in a

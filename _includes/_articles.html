@@ -5,7 +5,12 @@
     <ol>
       {% for article in site.articles reversed %}
       <li>
-        <a href="{{ article.url }}">{{ article.title }}</a>
+        <div>
+          Posted: {{ article.date | date: "%d %b, %Y" }}
+        </div>
+        <div>
+          <a href="{{ article.url }}">{{ article.title }}</a>
+        </div>
       </li>
       {% endfor %}
     </ol>

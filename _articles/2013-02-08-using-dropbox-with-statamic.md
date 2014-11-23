@@ -1,6 +1,7 @@
 ---
 title: "Using Dropbox With Statamic"
 layout: post
+date: 2013-02-08
 meta_desc: >
   Using Dropbox with Statamic seems to be
   a popular conversation on Twitter, it's

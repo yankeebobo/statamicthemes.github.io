@@ -1,6 +1,7 @@
 ---
 title: "Creating A Secure Area Statamic"
 layout: post
+date: 2013-08-12
 meta_desc: >
   This article shows you how to set up a
   simple, secure, area where users are

@@ -1,6 +1,7 @@
 ---
 title: "Using Environments For Statamic Development"
 layout: post
+date: 2013-01-27
 meta_desc: >
   Statamic gives you the ability to set up
   different environments for your site

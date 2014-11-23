@@ -1,6 +1,7 @@
 ---
 title: "Base Elements For Styling A Statamic Theme"
 layout: post
+date: 2013-01-01
 meta_desc: >
   All the common html elements laid out
   for you to add styling, really helpful

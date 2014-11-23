@@ -5,7 +5,12 @@
     <ol>
       {% for reference in site.reference reversed %}
       <li>
-        <a href="{{ reference.url }}">{{ reference.title }}</a>
+        <div class="article__date">
+          Posted: {{ reference.date | date: "%d %b, %Y" }}
+        </div>
+        <div>
+          <a href="{{ reference.url }}" class="article__link">{{ reference.title }}</a>
+        </div>
       </li>
       {% endfor %}
     </ol>

@@ -1,6 +1,7 @@
 ---
 title: "Setting Your Time Zone Settings In Plesk"
 layout: post
+date: 2013-02-16
 meta_desc: >
   When you first install Statamic you may well come
   across the following "Error It is not safe to rely
