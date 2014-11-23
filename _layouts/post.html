@@ -3,11 +3,8 @@ layout: default
 ---
 <article class="article">
   <header class="article__header">
-
     <h2 class="article__heading">{{ page.title }}</h2>
-
     <p class="article__meta">Published <time pubdate datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%Y-%m-%d" }}</time> by {{ page.author }}</p>
-
   </header>
 
   {% if page.main_img %}
