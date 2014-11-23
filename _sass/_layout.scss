@@ -11,7 +11,7 @@
 .constrain {
   margin: 0 auto;
   padding: 0 1em;
-  max-width: 42em;
+  max-width: $constrain;
 }
 main { min-height: 25em; }
 header[role="banner"] {

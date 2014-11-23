@@ -28,7 +28,12 @@ $cs-link--desktop-hover : $cs-a2;
   padding-top: 2.4em;
   position: relative;
   background-color: $cs-a1;
+  text-transform: uppercase;
   a { text-decoration: none; }
+  .constrain {
+    padding: 0;
+    max-width: 100%;
+  }
 }
 .nav--primary__list {
   display:  none;
@@ -62,7 +67,14 @@ $cs-link--desktop-hover : $cs-a2;
 
 @media (min-width: $daddyBear) {
 
-  .nav--primary { padding-top: 0.5em; padding-bottom: 0.5em; }
+  .nav--primary {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    .constrain {
+      padding: 0 1em;
+      max-width: $constrain;
+    }
+  }
   .nav--primary__list {
     display: block;
     text-align: center;

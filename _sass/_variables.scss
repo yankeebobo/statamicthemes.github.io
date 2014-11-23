@@ -84,9 +84,9 @@ $footerBg         : lighten($cs-htmlBg, 5%);
 // ADD @fontface
 
 $font-serif          : serif;
-$font-sans           : sans-serif;
+$font-sans           : "Open Sans", sans-serif;
 $font-mono           : "Courier New", Courier, monospace;
-$font-sans-heading   : sans-serif;
+$font-sans-heading   : $font-sans;
 $font-serif-heading  : $font-serif;
 
 $headingFontWeight: 700;
@@ -95,3 +95,4 @@ $boldFontWeight   : 700;
 
 $mummyBear : 33em;
 $daddyBear : 64em;
+$constrain : 48em;
