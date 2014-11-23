@@ -57,7 +57,18 @@ em, i {
   font-weight: $mainFontWeight;
 }
 code { background-color: $lighterGrey; }
-pre code { background-color: transparent; }
+pre {
+  overflow: auto;
+  padding: 0.5em;
+  white-space: pre;
+  word-wrap: normal;
+  border-radius: 0.3em;
+  background-color: $black;
+  code {
+    color: $white;
+    background-color: transparent;
+  }
+}
 
 img { width: 100%; max-width: 100%; height: auto; vertical-align: bottom; }
 blockquote {
