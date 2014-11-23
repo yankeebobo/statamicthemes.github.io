@@ -4,7 +4,7 @@ layout: default
 <article class="article">
   <header class="article__header">
     <h2 class="article__heading">{{ page.title }}</h2>
-    <p class="article__meta">Published <time pubdate datetime="{{ page.date }}">{{ page.date }}</time> by <a href="https://github.com/{{ page.author }}">{{ page.author }}</a></p>
+    <p class="article__meta">Published <time pubdate datetime="{{ page.date }}">{{ page.date }}</time> by <a href="https://github.com/{{ page.author }}" class="link-highlighted">{{ page.author }}</a></p>
   </header>
 
   {% if page.main_img %}
@@ -27,9 +27,9 @@ layout: default
 
   <footer class="article__footer">
     <ul>
-      <li><a href="#">Back to Posts</a></li>
-      <li><a href="{{ site.github.repository_url }}">Edit on GitHub</a></li>
-      <li><a href="{{ site.github.repository_url }}/issues" >Discuss or Raise Issue</a></li>
+      <li><a href="#" class="link-highlight">Back to Posts</a></li>
+      <li><a href="{{ site.github.repository_url }}" class="link-highlight">Edit on GitHub</a></li>
+      <li><a href="{{ site.github.repository_url }}/issues" class="link-highlight">Discuss or Raise Issue</a></li>
     </ul>
   </footer>
 </article>
