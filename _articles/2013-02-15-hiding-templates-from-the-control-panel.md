@@ -22,7 +22,7 @@ Creating a simple to use system for adding content in any CMS is really importan
 
 When you are setting up your site you will undoubtedly have several different templates for displaying the content and it will be necessary to use the [template field type](http://statamic.com/learn/documentation/fieldtypes/templates) to enable your client to choose which template you would like them to use for rendering the content. To do this you need to set up a template fieldtype in your fields.yaml file using the following YAML:
 
-~~~.language-markup
+~~~yaml
 _template:            # note the prefixed _underscore
     display: Template
 	  type: templates
@@ -33,7 +33,7 @@ This will now output all your templates as a dropdown in the control panel.
 ### Limiting The Number Of Templates To Choose From
 What if you only want to display a couple of templates for the client to choose from? The answer is simple you set the type to `select` rather than `templates` and set which templates you would like to display as the options:
 
-~~~.language-markup
+~~~yaml
 _template:
     display: Template
 	  type: select
@@ -44,7 +44,7 @@ _template:
 
 Or if you would like different names to the ones you have used to name the templates you could use:
 
-~~~.language-markup
+~~~yaml
 _template:
     display: Template
 	  type: select
@@ -58,7 +58,7 @@ Thank you to Wolfram Gehring [@marflow](https://twitter.com/marflow) on Twitter 
 ### Hiding Templates Completely But Selecting The Correct One
 You may want to hide the option of selecting a template completely but still have the requirement to set which template to use. This again is really simple using the [hidden fieldtype](http://statamic.com/learn/documentation/fieldtypes/hidden). Here is what you would put in your fields file:
 
-~~~.language-markup
+~~~yaml
 _template:
 		type: hidden
 		default: template_name

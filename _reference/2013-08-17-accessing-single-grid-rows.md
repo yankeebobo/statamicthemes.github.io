@@ -19,7 +19,7 @@ summary: >
 
 {% raw %}
 
-~~~.language-markup
+~~~twig
 {{ if project_images:0|not_empty }}
 <img src="{{ project_images:0:img }}" alt="{{ project_images:0:img_title }}">
 {{ endif }}

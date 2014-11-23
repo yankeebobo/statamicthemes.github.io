@@ -16,7 +16,7 @@ summary: >
   Jack McDade.
 ---
 
-~~~.language-markup
+~~~yaml
 title: Fieldset Kitchen Sink
 
 fields:

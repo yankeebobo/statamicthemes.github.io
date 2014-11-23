@@ -49,20 +49,20 @@ That is now everything you need to build your theme set up and ready to go. Whil
 ### [The Layout Template](https://github.com/statamicthemes/simple-theme/blob/master/simple_theme/layouts/default.html)
 First let's add the CSS to your site using the [Statamic theme helper tag](http://statamic.com/learn/theming/theme-helpers) add this in the head of document of your [default layout template](https://github.com/statamicthemes/simple-theme/blob/master/simple_theme/layouts/default.html) the tag looks like this:
 
-~~~.language-php
+~~~twig
 {{ theme:css }}
 ~~~
 
 Repeat this for the javascript by adding a script tag next to the closing body tag with the source using the [theme helper tag](http://statamic.com/learn/theming/theme-helpers).
 
-~~~.language-php
+~~~twig
 {{ theme:js }}
 ~~~
 
 #### The Site Name Tag
 Next we will use one of Statamic's global variables to render the site name in the `<title>` tag and `h1` tag. The `{{ _site_name }}` tag will render the name that you have saved in your settings.yaml file which is located in your _config folder. To change this open up your settings.yaml file and change the `_site_name` variable to:
 
-~~~.language-markup
+~~~yaml
 _site_name: Your site name
 ~~~
 
@@ -76,7 +76,7 @@ Add the magic `{{ layout_content }}` tag below the `h1` tag as I have done [here
 #### Add Your First Partial
 Ok so your layout template is all set up, but for a little example of how partials work include the following code below the `{{ layout_content }}` tag:
 
-~~~.language-php
+~~~twig
 {{ theme:partial src="_footer" }}
 ~~~
 

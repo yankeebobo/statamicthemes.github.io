@@ -31,7 +31,7 @@ summary: >
 ### How Environments Work
 First open your settings.yaml file and you will see the _environments variable settings (roughly three quarters of the way down the page). This is where you tell Statamic what your environments look like, here we have two set up - dev and live:
 
-~~~.language-markup
+~~~yaml
 _environments:
 	dev:
   	- 'http://localhost*'
@@ -55,7 +55,7 @@ In the environments folder (located in the _config folder) you will see there ar
 ### The Conditional Statement
 We can now use a conditional statement to only display the analytics code when our live site is detected. Use the following conditional statement in the head of your document (or wherever you have your analytics code):
 
-~~~.language-php
+~~~twig
 {{ if enable_analytics == "yes" }}
 	ANALYTICS TRACKING CODE
 {{ endif }}

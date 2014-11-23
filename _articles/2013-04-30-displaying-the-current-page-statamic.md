@@ -27,7 +27,7 @@ To output the page number you would use the following tag `{{ get:page }}` and t
 ### Use Cases
 There is the obvious use case which is to display the page number at the bottom of your page near your pagination links but using the tag to render the page number in your meta title tag could also have some benefits. The thinking behind this is to stop duplicate titles; which is good from both a user perceptive and from an [SEO perspective](http://www.seomoz.org/blog/pagination-best-practices-for-seo-user-experience). The code below can be used in your document head to render the title you have given to the page and conditionally add the page number when you are on a paginated page.
 
-~~~.language-php
+~~~twig
 <title>{{ title }} {{ if get:page > 0 }} Page {{ get:page }}{{ endif }}</title>
 ~~~
 

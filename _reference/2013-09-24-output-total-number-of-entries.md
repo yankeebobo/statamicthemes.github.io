@@ -21,7 +21,7 @@ summary: >
 
 This variable gives you the total number of entries in a folder. You can use it within `{{ pages:listing }}` and `{{ entries:listing }}` tags.
 
-~~~.language-markup
+~~~twig
 {{ total_found }}
 ~~~
 

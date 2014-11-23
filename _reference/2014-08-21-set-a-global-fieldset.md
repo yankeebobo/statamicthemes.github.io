@@ -17,8 +17,9 @@ summary: >
   file you can add the following in your settings.yaml
   file.
 ---
+
 {% raw %}
-~~~.language-markup
+~~~yaml
 default_fieldset: myfieldset
 ~~~
 {% endraw %}

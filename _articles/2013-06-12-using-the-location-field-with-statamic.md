@@ -32,7 +32,7 @@ I have set the example up to display ordered entries from within the [locations 
 #### The Location Field
 This is used to set the location information e.g. latitude and longitude, and is required to place the marker on the map. The field syntax is as simple as adding:
 
-~~~.language-markup
+~~~yaml
 where:
   display: Place
   type: location
@@ -50,7 +50,7 @@ Go ahead and create a few entries so that you can display them on the map. A poi
 #### Loading The Map Javascript & CSS
 There is a Statamic tag to use which will load all the Javascript and CSS required for the map:
 
-~~~.language-php
+~~~twig
 {{ location:start_maps }}
 ~~~
 
@@ -59,7 +59,7 @@ In the example files I have wrapped the location tag in a conditional which look
 #### The Template Code
 The template code to render the map with locations is fairly straight forward. You use the `{{ entries:map }}` tag with the folder and locate parameters. You can also choose where you would like to centre the map:
 
-~~~.language-php
+~~~twig
 {{ entries:map
   folder="locations"
   locate_with="where"

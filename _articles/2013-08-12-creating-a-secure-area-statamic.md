@@ -37,7 +37,7 @@ At first glance the second option may not seem that useful but where it does bec
 ### Creating A Login Link
 To get started you will need to create an area for members to login, you could just direct them to the admin login area, but when they put their details in they will receive a message saying "access denied" if you haven't given them admin access. To provide a nice user experience Statamic provides you with the  `{{ member:login }}` tag pair, this creates a form tag and you can provide it a redirect page once the user logs in.
 
-~~~.language-markup
+~~~twig
 {{ member:login return="top-secret" }}
   <input type="text" name="username" id="username" placeholder="Username" >
   <input type="password" name="password" id="password" placeholder="Password" >
@@ -48,14 +48,14 @@ To get started you will need to create an area for members to login, you could j
 ### Creating A Logout Link
 Of course once users are logged in to your site you are going to want to provide an option to logout, again Statamic provides us with a tag to do this and the option to redirect to a new page once logged out.
 
-~~~.language-markup
+~~~twig
 <a href="{{ member:logout return="logout-page" }}">Logout</a>
 ~~~
 
 ### Creating Your Secure Content
 So you have created your login and logout areas on the front end of the site, now all that you need to do is ensure that the content you want to keep hidden from visitors who are not logged in is output using a conditional in your page template, without this everyone will still be able to see your content. Using a simple `{{ if logged_in }}` conditional is all that is required and you could provide a link to the login form if not.
 
-~~~.language-markup
+~~~twig
 {{ if logged_in }}
 <section role="main">
   <h2>{{ title }}</h2>

@@ -20,7 +20,7 @@ summary: >
 
 {% raw %}
 
-~~~.language-php
+~~~twig
 {{# Add simple pagination: limit must equal entries limit #}}
 
 {{ entries:pagination

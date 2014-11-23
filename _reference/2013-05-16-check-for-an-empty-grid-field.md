@@ -22,13 +22,13 @@ summary: >
 
 Sometimes you might want to check if a grid field is empty and if it is do not display that grid row. To do this you can use the following:
 
-~~~.language-php
+~~~twig
 {{ if gridfield|empty }}
 ~~~
 
 The opposite to this is of course:
 
-~~~.language-php
+~~~twig
 {{ if gridfield|not_empty }}
 ~~~
 

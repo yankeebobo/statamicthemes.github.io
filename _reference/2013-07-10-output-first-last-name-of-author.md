@@ -22,7 +22,7 @@ summary: >
 
 If you are using the [Users Fieldtype](http://statamic.com/learn/documentation/fieldtypes/users) as a standard field in blogs you can output the author of the post by calling its yaml field e.g. `{{ author }}` (or whatever you called your field). However, this extracts the username - which is fine for some cases but what if you would like to display the first name or last name or both. Simply use the following snippet.
 
-~~~.language-php
+~~~twig
 {{ member:profile member="{author}" }}
   {{ first_name }} {{ last_name }}
 {{ /member:profile }}

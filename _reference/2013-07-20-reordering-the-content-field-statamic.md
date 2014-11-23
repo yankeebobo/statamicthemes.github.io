@@ -30,14 +30,14 @@ To get round where the content field is displayed you can use the following :
 
 In your fields.yaml file set the content fields to hidden. You must have a content field and if you do not have one then Statamic will add it automatically:
 
-~~~.language-markup
+~~~yaml
 content:
 		type: hidden
 ~~~
 
 Next create another content field but call it something different like `main_content`, you can set this field to be a [Markitup](http://statamic.com/learn/documentation/fieldtypes/markitup) field or [Redactor](http://statamic.com/learn/documentation/fieldtypes/redactor).
 
-~~~.language-markup
+~~~yaml
 main_content:
 	display: Page Content
 	type: redactor

@@ -33,7 +33,7 @@ First let me say, I am not a terminal or a git master I used to shy away from bo
 ### Git On The Server
 Anyone who uses git (and you all should be) will have git installed locally, whether that be through downloading from the [Git install page](http://git-scm.com/downloads) or as part of your GUI install (Git Tower etc.). This works great for your day to day work and is all most people will need normally, but you can also install git on any server (I say any, you would need to check with your hosting provider, as SSH access is required). I googled and asked around and it turns out that installing git on the server just requires a simple command through SSH. Log in to your server as root and then type.
 
-~~~.language-markup
+~~~bash
 yum install git
 ~~~
 
@@ -43,13 +43,13 @@ Whilst on my search for how to install Git I found one host (WebFaction) that al
 
 O.k. So you have git installed on your server, next you will need to install an SSH key so that your Bitbucket or Github account will recognise your server and allow it to push and pull from your Statamic site repository. Github provides a helpful set of [instructions](https://help.github.com/articles/generating-ssh-keys) which you can follow, its almost an identical process to when you created an SSH key on your mac or pc. Log in to the home directory of your server, this is where the .ssh directory is located. To get to the home directory just type:
 
-~~~.language-markup
+~~~bash
 cd ~
 ~~~
 
 once there follow the [Github instructions](https://help.github.com/articles/generating-ssh-keys) up to the point where it tells you to copy and paste the key using
 
-~~~.language-markup
+~~~bash
 pbcopy < ~/.ssh/id_rsa.pub
 ~~~
 

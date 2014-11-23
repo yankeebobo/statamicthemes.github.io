@@ -16,8 +16,9 @@ summary: >
   want to wrap your content in a `{{ member:profile }}`
   tag pair then you can just use a single tag.
 ---
+
 {% raw %}
-~~~.language-markup
+~~~twig
 {{ current_member:field_name }}
 ~~~
 {% endraw %}

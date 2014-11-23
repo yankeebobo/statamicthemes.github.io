@@ -36,7 +36,7 @@ The articles which all start with the date 2012-02-21 etc. will be what we are g
 
 Inside our entries tag there are two variables used:
 
-~~~.language-php
+~~~twig
 {{ url }}
 {{ title }}
 ~~~

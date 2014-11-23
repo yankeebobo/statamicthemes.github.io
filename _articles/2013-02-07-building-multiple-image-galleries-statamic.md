@@ -26,7 +26,7 @@ When working with entries rather than a single page you need to create a content
 ### Creating The Fields
 The next thing to do is set up all the fields that you will require in your gallery. We will use the [Grid Fieldset](http://statamic.com/learn/documentation/fieldtypes/grid) fieldtype as we did for the [single page gallery](http://www.statamicthemes.com/articles/building-a-simple-image-gallery-statamic), make sure to use 2 spaces for indentation in your [fields.yaml](https://github.com/statamicthemes/image-gallery/blob/master/_content/gallery/fields.yaml) file, here is my code:
 
-~~~.language-markup
+~~~yaml
 type: number
 
 fields:
@@ -64,7 +64,7 @@ If you have followed my example above you will notice that I gave the destinatio
 ### Create The Listing Page
 Within the _content folder we also need to create a [page.md](https://github.com/statamicthemes/image-gallery/blob/master/_content/gallery/page.md) file which will tell Statamic which template to use for the gallery listings, here we can add any additional content which describes the gallery listings to. My YAML Front Matter for this file looks like this:
 
-~~~.language-markup
+~~~yaml
 title: Image Gallery Listing
 _template: gallery_listing
 _fieldset: no_content
@@ -72,7 +72,7 @@ _fieldset: no_content
 
 I have chosen to give the gallery listing page a title of "Image Gallery Listing", told Statamic to use the gallery_listing template and use a fieldset called [no_content](https://github.com/statamicthemes/image-gallery/blob/master/fieldsets/no_content.yaml). I will come on to  what goes into the gallery_listing template next, the fieldset called [no_content](https://github.com/statamicthemes/image-gallery/blob/master/fieldsets/no_content.yaml) is created in your [fieldsets](https://github.com/statamicthemes/image-gallery/tree/master/fieldsets) folder. The fields in here are really simple:
 
-~~~.language-markup
+~~~yaml
 fields:
 	content:
   	type: hidden

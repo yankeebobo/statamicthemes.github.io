@@ -18,7 +18,7 @@ summary: >
 
 All you need to do to set your field instructions below your field is add the keyword "below" under the "instructions"  option like so:
 
-~~~.language-markup
+~~~yaml
   instructions:
     below: "Your field instructions go here."
 ~~~

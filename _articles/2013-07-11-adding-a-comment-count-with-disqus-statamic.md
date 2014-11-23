@@ -20,7 +20,7 @@ summary: >
 
 The set up is really quite straightforward and the [Disqus help page](http://help.disqus.com/customer/portal/articles/565624) provides the script example required. I used the following script which I added to a disqus.js file in my theme's js directory.
 
-~~~.language-javascript
+~~~javascript
 <script type="text/javascript">
 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 var disqus_shortname = 'example'; // required: replace example with your forum shortname
@@ -37,7 +37,7 @@ s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 
 You will need to change the username to your own but other than that the script is ready to go. The final part is just appending `#disqus_thread` to your post link where you would like the comments to display.
 
-~~~.language-markup
+~~~twig
 <a href="{{ url }}#disqus_thread">Read More</a>
 ~~~
 

@@ -18,7 +18,7 @@ summary: >
 
 {% raw %}
 
-~~~.language-markup
+~~~twig
 {{ entries:listing folder="blog" conditions="url:{ suggest_option_list }" }}
   <p><a href="{{ url }}">{{ title }}</a></p>
 {{ /entries:listing }}

@@ -26,7 +26,7 @@ Depending on how you are going to set your gallery up will depend on the best wa
 #### One Page Gallery Fieldset
 In your fieldsets folder which is located in the _config folder create a gallery.yaml file, you can call the fieldset file whatever you like but I would always try to have the name describe what the fields do. In this file you will create the gallery fields which will display in your control panel using the [Grid Fieldtype](http://statamic.com/learn/documentation/fieldtypes/grid). One thing to note when creating your fields in the Yaml file is that **spacing is very important** you will notice that the fields are indented using 2 spaces and this is what you should stick to. So here is my gallery.yaml file:
 
-~~~language-markup
+~~~yaml
 fields:
   gallery:
     display: Image Gallery
@@ -67,7 +67,7 @@ If you have followed my example above you will notice that I gave the `destinati
 ### Create The Content Page
 In your _content folder create a folder called gallery and in there create a page.md file. What you name this folder is again up to you. Inside your page.md file, between the [YAML Front Matter](http://statamic.com/learn/core-concepts/content-files) (a set of three dashes in the head of your document), add the following:
 
-~~~.language-markup
+~~~yaml
 title: Image Gallery Basic
 _template: gallery
 _fieldset: gallery
@@ -78,7 +78,7 @@ This gives the page a title, tells the page to use the gallery template to rende
 ### Th Gallery Template
 In your templates folder located in your _themes folder create a gallery.html file. In here is where you will create the html markup for the gallery and add the Statamic tags which will render your images. I have kept this super simple for the purposes of this example but you could create any kind of gallery you wish. My code looks like this:
 
-~~~.language-markup
+~~~html
 <h2>Gallery Using Image Plugin</h2>
 <div>
   <ul class="gallery">
@@ -102,14 +102,14 @@ First I have created an unordered list to mark the content up, I then wrap the `
 
 You should now have everything set up and ready to go. If you login to your control panel and navigate to the gallery page you will see a title, slug field, with the gallery grid below that ready for adding your images. One point to note is that there is still a content field below this. If you do not want to have this content field display you can add the following code to your gallery.yaml fieldset file:
 
-~~~.language-markup
+~~~yaml
 content:
 	type: hidden
 ~~~
 
 Again spacing is very important, the complete file should look like this:
 
-~~~.language-markup
+~~~yaml
 fields:
   gallery:
     display: Image Gallery

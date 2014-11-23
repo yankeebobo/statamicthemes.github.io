@@ -30,7 +30,7 @@ Previously in my [Git workflow](http://www.statamicthemes.com/articles/the-perfe
 
 From Ant's comments though I realised that 5 and 6 are a bit long winded and actually unnecessary. If you follow the points up to and including point 4, then once in the home directory for your site you just need to run the following command in your terminal:
 
-~~~.language-markup
+~~~bash
 git clone git@bitbucket.org:garethredfern/thesitefolder.git .
 ~~~
 
