@@ -22,9 +22,13 @@ sass:
 collections:
   articles:
     output: true
+    permalink: /:collection/:title/
   reference:
     output: true
+    permalink: /:collection/:title/
   themes:
     output: true
+    permalink: /:collection/:title/
   plugins:
     output: true
+    permalink: /:collection/:title/
