@@ -30,14 +30,18 @@
   text-transform: uppercase;
 }
 
-.article__summary a,
+.article__summary a:link,
 .article__summary a:visited,
-.article__content a,
-.article__content a:visited { color: $cs-font; border-bottom: 0.1em dotted; }
+.article__content a:link,
+.article__content a:visited {
+  color: $cs-font;
+  transition: 0.3s;
+  border-bottom: 0.1em dotted;
+}
 .article__summary a:hover,
 .article__summary a:focus,
 .article__content a:hover,
-.article__content a:focus { color: $cs-font; border-bottom: 0.1em solid; }
+.article__content a:focus { color: $cs-a2; border-bottom: 0.1em solid; }
 
 .article__summary > p { margin-top: 0; }
 .article__video,

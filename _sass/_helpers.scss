@@ -34,8 +34,8 @@
   display: inline-block; // Fix for clickability issue in WebKit
 }
 
-.screen-reader-text, .ir { @include hide-text; }
-.vh {
+.vh,
+.screen-reader-text {
   border: 0;
   width: 1px;
   height: 1px;
@@ -48,6 +48,18 @@
 
 .success { color: $cs-alert-success; }
 .error, .errors { color: $cs-alert-danger; }
+
+.link-highlight {
+  &:link, &:visited {
+    color: $cs-font;
+    transition: 0.3s;
+    border-bottom: 0.1em dotted;
+  }
+  &:hover, &:active, &:focus {
+    color: $cs-a2;
+    border-bottom: 0.1em solid;
+  }
+}
 
 @media (min-width: $mummyBear) {
   .left { float: left; }
