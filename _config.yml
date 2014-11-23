@@ -13,7 +13,6 @@ github_username:  garethredfern
 # Build settings
 markdown: kramdown
 permalink: /:title
-repo: https://github.com/statamicthemes/statamicthemes.github.io/blob/master/
 
 #Sass
 sass:
