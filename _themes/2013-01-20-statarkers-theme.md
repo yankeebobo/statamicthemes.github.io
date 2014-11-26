@@ -13,7 +13,6 @@ summary: >
   will enable you to get up and running with a site
   build in a matter of minutes.
 download_link: https://github.com/statamicthemes/statarkers-theme
-preview_link: http://statarkers.statamicthemes.com
 ---
 Born from the idea of a blank canvas for starting your Statamic sites this theme is loosely based on the popular [Starkers](http://viewportindustries.com/products/starkers/) theme for Wordpress. The idea being that you can load the theme into your Statamic themes folder, add the dummy content and fields to your Statamic install and get designing and building your Statamic sites in even less time than you were already.
 
