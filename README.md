@@ -1,8 +1,6 @@
 # Statamic Themes
 
-[statamicthemes.com](http://www.statamicthemes.com)
-
-Statamic Themes has now moved over to GitHub pages (blog post to follow on why). Please feel free to submit any posts themes, or plugins that you feel would be useful to the Statamic community.
+[Statamic Themes](http://www.statamicthemes.com) has now moved over to GitHub pages (blog post to follow on why). Please feel free to submit any posts themes, or plugins that you feel would be useful to the Statamic community.
 
 ## Still To-Do
 
