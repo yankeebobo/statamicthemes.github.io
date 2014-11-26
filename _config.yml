@@ -13,6 +13,8 @@ github_username:  garethredfern
 # Build settings
 markdown: kramdown
 permalink: /:title
+gems:
+  - jekyll-sitemap
 
 #Sass
 sass:
