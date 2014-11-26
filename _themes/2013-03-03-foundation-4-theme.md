@@ -13,7 +13,6 @@ summary: >
   to start posting content, you can of course easily
   build on top of the theme if you need to customise things.
 download_link: https://github.com/statamicthemes/foundation-4
-preview_link: http://foundation4.statamicthemes.com
 ---
 [Foundation 4](http://foundation.zurb.com) offers an excellent starting point for building responsive websites and the [Statarkers](http://www.statamicthemes.com/themes/statarkers-theme) theme offers a base set of files for building Statamic themes quickly and efficiently.
 
