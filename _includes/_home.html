@@ -6,7 +6,7 @@
   </div><!-- END .lead -->
   <section class="articles">
     <ol class="articles__list">
-      {% for article in site.articles reversed limit:10 %}
+      {% for article in site.articles reversed %}
       <li>
         <a href="{{ article.url }}">
           <div>Posted: {{ article.date | date: "%d %b, %Y" }}</div>
@@ -15,7 +15,6 @@
       </li>
       {% endfor %}
     </ol>
-    <p class="clear"><a href="{{ site.url }}/articles" class="right">More Articles <i class="icon-arrow-right"></i></a></p>
     <p>If you have an article you would like to include, please submit a pull request through <a href="{{ site.github.repository_url }}/tree/master/_articles" class="link-highlight"><i class="icon-github"></i> GitHub</a>.</p>
   </section>
 
