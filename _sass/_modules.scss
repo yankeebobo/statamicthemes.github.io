@@ -16,7 +16,9 @@
   margin: 0;
   text-align: center;
 }
-.articles {
+.articles__list {
+  list-style: none;
+  padding-left: 0;
   li {
     padding-top: 1em;
     border-bottom: 0.1em dashed $lightGrey;
@@ -69,4 +71,12 @@
   padding-bottom: 1em;
   border-top: 0.1em solid $lighterGrey;
   border-bottom: 0.1em solid $lighterGrey;
+}
+
+.site-footer__links {
+  a {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    display: inline-block;
+  }
 }

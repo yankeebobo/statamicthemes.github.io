@@ -2,7 +2,7 @@
   <h2 class="main__heading"><i class="icon-plugins"></i> {{ page.title }}</h2>
 
   <section class="articles">
-    <ol>
+    <ol class="articles__list">
       {% for plugin in site.plugins reversed %}
       <li>
         <a href="{{ plugin.url }}">{{ plugin.title }}</a>

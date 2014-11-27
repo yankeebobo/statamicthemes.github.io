@@ -5,7 +5,7 @@
     <p>If you have any questions please feel free to get in touch via <a href="https://twitter.com/statamic_themes" class="link-highlight">twitter</a> or <a href="https://github.com/statamicthemes/statamicthemes.github.io/issues" class="link-highlight">GitHub issues</a>.</p>
   </div><!-- END .lead -->
   <section class="articles">
-    <ol>
+    <ol class="articles__list">
       {% for article in site.articles reversed limit:10 %}
       <li>
         <a href="{{ article.url }}">
@@ -15,7 +15,7 @@
       </li>
       {% endfor %}
     </ol>
-    <p><a href="{{ site.url }}/articles" class="link-highlight">Read More aticles <i class="icon-arrow-right"></i></a></p>
+    <p><a href="{{ site.url }}/articles">More Articles <i class="icon-arrow-right"></i></a></p>
     <p>If you have an article you would like to include, please submit a pull request through <a href="{{ site.github.repository_url }}/tree/master/_articles" class="link-highlight"><i class="icon-github"></i> GitHub</a>.</p>
   </section>
 

@@ -2,7 +2,7 @@
   <h2 class="main__heading"><i class="icon-themes"></i>  {{ page.title }}</h2>
 
   <section class="articles">
-    <ol>
+    <ol class="articles__list">
       {% for theme in site.themes reversed %}
       <li>
         <a href="{{ theme.url }}">{{ theme.title }}</a>

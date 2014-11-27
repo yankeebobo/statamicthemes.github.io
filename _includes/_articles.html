@@ -2,7 +2,7 @@
   <h2 class="main__heading"><i class="icon-articles"></i> {{ page.title }}</h2>
 
   <section class="articles">
-    <ol>
+    <ol class="articles__list">
       {% for article in site.articles reversed %}
       <li>
         <a href="{{ article.url }}">
