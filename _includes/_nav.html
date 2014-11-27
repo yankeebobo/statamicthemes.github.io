@@ -1,14 +1,13 @@
+{% assign navurl = page.url | remove: 'index.html' %}
+
 <nav role="navigation" class="nav--primary">
   <div class="constrain">
     <a id="menu" class="nav--primary__btn">Menu</a>
     <ul id="js-nav--primary__list" class="nav--primary__list">
-      {% assign pages = site.pages | sort:"nav_order" %}
-        {% for p in pages %}
-        {% if p.title %}
+      {% for item in include.nav %}
         <li class="nav__listItem">
-          <a href="{{ p.url | prepend: site.baseurl }}" class="nav__link{% if p.url == page.url %} current{% endif %}">{{ p.title }}</a>
+          <a href="{{ item.url }}" class="nav__link{% if navurl contains item.url %} current{% endif %}">{{ item.text }}</a>
         </li>
-        {% endif %}
       {% endfor %}
     </ul>
   </div><!-- END .constrain -->

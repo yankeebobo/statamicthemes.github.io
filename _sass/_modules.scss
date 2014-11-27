@@ -10,6 +10,7 @@
 // Each Module should be designed to exist as a standalone component.
 
 .main__heading {
+  margin-bottom: 1em;
   border-bottom: 0.2em solid $cs-a1;
 }
 .logo {
@@ -21,15 +22,17 @@
   }
 }
 .articles__list {
-  list-style: none;
+  margin-top: 0;
   padding-left: 0;
+  list-style: none;
   li {
     padding-top: 1em;
     border-bottom: 0.1em dashed $lightGrey;
+    &:first-child { padding-top: 0; }
   }
 }
 
-.article { padding-top: 0.5em; padding-bottom: 0.5em; }
+.article { padding-bottom: 0.5em; }
 .article__meta {
   margin-top: 0.2em;
   color: $lightGrey;
