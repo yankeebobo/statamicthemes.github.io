@@ -15,6 +15,10 @@
 .logo {
   margin: 0;
   text-align: center;
+  a {
+    &:link, &:visited { color: $cs-a1; }
+    &:hover, &:active, &:focus { color: $cs-a2; }
+  }
 }
 .articles__list {
   list-style: none;
@@ -27,7 +31,7 @@
 
 .article { padding-top: 0.5em; padding-bottom: 0.5em; }
 .article__meta {
-  margin-top: 0;
+  margin-top: 0.2em;
   color: $lightGrey;
   font-size: 0.875em;
   letter-spacing: 0.1em;
