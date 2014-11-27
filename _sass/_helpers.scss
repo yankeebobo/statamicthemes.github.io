@@ -29,6 +29,9 @@
   margin-top: 3em;
   margin-bottom: 3em;
 }
+.clear {
+  overflow: hidden;
+}
 
 .icon-alone {
   display: inline-block; // Fix for clickability issue in WebKit
