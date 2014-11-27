@@ -25,7 +25,7 @@ collections:
   articles:
     output: true
     permalink: /:collection/:title/
-  reference:
+  snippets:
     output: true
     permalink: /:collection/:title/
   themes:

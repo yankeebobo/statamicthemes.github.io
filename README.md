@@ -10,3 +10,4 @@
 - Add XML feed.
 - Add tags and category links.
 - Add some more style.
+- Add commercial and free icon and YAML vars.

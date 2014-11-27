@@ -1,0 +1,18 @@
+<main role="main" class="main">
+  <h2 class="main__heading"><i class="icon-snippets"></i> Code {{ page.title }}</h2>
+
+  <section class="articles">
+    <ol class="articles__list">
+      {% for snippet in site.snippets reversed %}
+      <li>
+        <a href="{{ snippet.url }}">
+          <div class="article__date">Posted: {{ snippet.date | date: "%d %b, %Y" }}</div><!-- END .article__date -->
+          <div>{{ snippet.title }}</div>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+    <p>If you have a quick snippet you would like to include, please submit a pull request through <a href="{{ site.github.repository_url }}/tree/master/_snippets" class="link-highlight"><i class="icon-github"></i> GitHub</a>.</p>
+  </section>
+
+</main><!-- END .main -->
