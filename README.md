@@ -5,7 +5,6 @@
 ## Still To-Do
 
 - Add article/theme/plugin/reference instructions README.
-- Fix current class when on a single post page.
 - Update main README.
 - Add XML feed.
 - Add tags and category links.
