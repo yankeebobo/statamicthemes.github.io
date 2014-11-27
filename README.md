@@ -10,3 +10,4 @@
 - Add tags and category links.
 - Add some more style.
 - Add commercial and free icon and YAML vars.
+- Add plugins from google docs list.
