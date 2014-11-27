@@ -9,7 +9,9 @@
 // Modules can sometimes sit within other Modules, too.
 // Each Module should be designed to exist as a standalone component.
 
-.main__heading { text-align: center; }
+.main__heading {
+  border-bottom: 0.2em solid $cs-a1;
+}
 .logo {
   margin: 0;
   text-align: center;
@@ -52,6 +54,14 @@
   border: 0.1em solid $lighterGrey;
 }
 .article__heading { margin-bottom: 0; line-height: 1.2; }
+.article__links {
+  line-height: 1;
+  a {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    display: inline-block;
+  }
+}
 .article__footer {
   margin-top: 2em;
   padding-top: 1em;

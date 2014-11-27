@@ -26,16 +26,16 @@ layout: default
   </div><!-- END .article__content -->
 
   <footer class="article__footer">
-    <ul class="list--unstyled">
-      <li><a href="/{{ page.collection }}" class="link-highlight"><i class="icon-arrow-left"></i> Back to {{ page.collection | capitalize }}</a></li>
+    <ul class="list--unstyled article__links">
+      <li><a href="/{{ page.collection }}"><i class="icon-arrow-left"></i> Back to {{ page.collection | capitalize }}</a></li>
       {% if page.preview_link %}
-      <li><a href="{{ page.preview_link }}" class="link-highlight"><i class="icon-view"></i> Preview</a></li>
+      <li><a href="{{ page.preview_link }}"><i class="icon-view"></i> Preview</a></li>
       {% endif %}
       {% if page.download_link %}
-      <li><a href="{{ page.download_link }}" class="link-highlight"><i class="icon-download"></i> Download</a></li>
+      <li><a href="{{ page.download_link }}"><i class="icon-download"></i> Download</a></li>
       {% endif %}
-      <li><a href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}" class="link-highlight"><i class="icon-edit"></i> Edit on GitHub</a></li>
-      <li><a href="{{ site.github.repository_url }}/issues" class="link-highlight"><i class="icon-info"></i> Discuss or Raise Issue</a></li>
+      <li><a href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}"><i class="icon-edit"></i> Edit on GitHub</a></li>
+      <li><a href="{{ site.github.repository_url }}/issues"><i class="icon-info"></i> Discuss or Raise Issue</a></li>
     </ul>
   </footer>
 </article>
