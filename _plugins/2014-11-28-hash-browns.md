@@ -4,7 +4,7 @@ layout: post
 author: curtisblackwell
 category: "ajax"
 tags: ""
-commercial: "no"
+commercial: "yes"
 summary: >
   Hash Browns is a Statamic plugin that enables you to easily create an AJAX navigable site with little to no markup changes.
 download_link: http://curtisblackwell.com/add-ons/statamic/hash-browns
