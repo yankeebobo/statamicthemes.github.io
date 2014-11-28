@@ -29,6 +29,7 @@ The main article content goes here, if you are wanting to display Statamic tags 
 
 Here's an example of an article I've added to the _articles folder:
 
+```
 ---
 title: "Building Your First Statamic Theme Part One"
 layout: post
@@ -54,3 +55,5 @@ summary: >
 Main article content goes in here...
 
 {% endraw %}
+
+```
