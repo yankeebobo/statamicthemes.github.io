@@ -1,6 +1,7 @@
 ---
 title: "Get File Info"
 layout: post
+date: 2013-08-25
 author: garethredfern
 category: ""
 tags: ""

@@ -8,7 +8,7 @@ To add a snippet:
 
 ```
 ---
-title: Title of Article
+title: Title of Snippet
 layout: post
 date: 2013-01-01
 author: githubusername
@@ -47,7 +47,7 @@ summary: >
 
 {% raw %}
 
-Main snippet content goes in here, use markdown tags as you normall would.
+Main snippet content goes in here, use markdown tags as you normally would.
 
 {% endraw %}
 

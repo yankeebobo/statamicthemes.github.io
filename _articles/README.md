@@ -51,7 +51,7 @@ summary: >
 ---
 {% raw %}
 
-Main snippet content goes in here, use markdown tags as you normall would.
+Main snippet content goes in here, use markdown tags as you normally would.
 
 {% endraw %}
 

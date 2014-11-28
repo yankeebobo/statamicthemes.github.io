@@ -4,7 +4,6 @@
 
 ## Still To-Do
 
-- Add theme/plugin/reference instructions README.
 - Update main README.
 - Add XML feed.
 - Add tags and category links.
