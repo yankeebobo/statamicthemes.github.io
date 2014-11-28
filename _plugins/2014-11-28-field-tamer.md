@@ -1,7 +1,7 @@
 ---
 title: "Field Tamer"
 layout: post
-author: garethredfern
+author: jasonvarga
 categories: "fieldtype"
 tags: ""
 commercial: "no"
