@@ -3,8 +3,7 @@ title: "Base Elements For Styling A Statamic Theme"
 layout: post
 date: 2013-01-01
 author: garethredfern
-categories:
-  - reference
+category: reference
 tags:
   - theme building
 summary: >

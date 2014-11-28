@@ -3,7 +3,7 @@
 To add an article:
 
 1. [create a new file within the _articles folder](https://github.com/statamicthemes/statamicthemes.github.io/tree/master/_articles) (the same one as this README).
-2. Give it a name that's the same as the title of the article, with words separated by hyphens, with .md at the end.
+2. Add the date to the front of the file name then give it a name that's the same as the title of the article, with words separated by hyphens, with .md at the end.
 3. Paste the following YAML code into the head of it (as you would with Statamic content)
 
 ```

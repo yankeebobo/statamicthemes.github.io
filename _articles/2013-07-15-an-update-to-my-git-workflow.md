@@ -3,8 +3,7 @@ title: "An Update To My Git Workflow"
 layout: post
 date: 2013-07-15
 author: garethredfern
-categories:
-  - tutorials
+category: tutorials
 tags:
   - git
   - version control

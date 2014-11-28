@@ -3,8 +3,7 @@ title: "Using Dropbox With Statamic"
 layout: post
 date: 2013-02-08
 author: garethredfern
-categories:
-  - workflow
+category: workflow
 tags:
   - tips
   - plugins

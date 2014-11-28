@@ -3,8 +3,7 @@ title: "Building Multiple Image Galleries In Statamic"
 layout: post
 date: 2013-02-07
 author: garethredfern
-categories:
-  - tutorials
+category: tutorials
 tags:
   - image gallery
 summary: >

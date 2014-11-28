@@ -3,8 +3,7 @@ title: "Creating A Secure Area Statamic"
 layout: post
 date: 2013-08-12
 author: garethredfern
-categories:
-  - tutorials
+category: tutorials
 tags:
   - members
 summary: >

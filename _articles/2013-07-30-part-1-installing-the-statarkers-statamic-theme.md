@@ -3,8 +3,7 @@ title: "Part 1 - Installing The Statarkers Statamic Theme"
 layout: post
 date: 2013-07-30
 author: garethredfern
-categories:
-  - videos
+category: videos
 tags:
   - theme building
 video: '<iframe width="640" height="360" src="//www.youtube.com/embed/KtUtDVMKWvM" frameborder="0" allowfullscreen></iframe>'

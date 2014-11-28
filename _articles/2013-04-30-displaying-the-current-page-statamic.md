@@ -3,8 +3,7 @@ title: "Displaying The Current Page In Statamic"
 layout: post
 date: 2013-04-30
 author: garethredfern
-categories:
-  - tutorials
+category: tutorials
 tags:
   - tips
   - seo

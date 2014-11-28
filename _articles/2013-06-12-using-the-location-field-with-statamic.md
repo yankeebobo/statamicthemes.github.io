@@ -3,8 +3,7 @@ title: "Using The Location Field With Statamic"
 layout: post
 date: 2013-06-12
 author: garethredfern
-categories:
-  - tutorials
+category: tutorials
 tags:
   - location
 summary: >

@@ -3,8 +3,7 @@ title: "Building Your First Statamic Theme Part Three"
 layout: post
 date: 2013-01-25
 author: garethredfern
-categories:
-  - tutorials
+category: tutorials
 tags:
   - theme building
 summary: >

@@ -3,8 +3,7 @@ title: "Hiding Templates From The Control Panel"
 layout: post
 date: 2013-02-15
 author: garethredfern
-categories:
-  - control panel
+category: control panel
 tags:
   - tips
 summary: >

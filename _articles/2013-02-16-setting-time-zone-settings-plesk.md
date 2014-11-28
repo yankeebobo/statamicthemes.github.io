@@ -3,8 +3,7 @@ title: "Setting Your Time Zone Settings In Plesk"
 layout: post
 date: 2013-02-16
 author: garethredfern
-categories:
-  - installing
+category: installing
 tags:
   - tips
 summary: >

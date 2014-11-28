@@ -3,8 +3,7 @@ title: "Part 3 - Template Partials In The Statarkers Theme For Statamic"
 layout: post
 date: 2013-08-18
 author: garethredfern
-categories:
-  - videos
+category: videos
 tags:
   - theme building
 video: '<iframe width="640" height="480" src="//www.youtube.com/embed/kq6nm5ep3TA?rel=0" frameborder="0" allowfullscreen></iframe>'

@@ -3,8 +3,7 @@ title: "Adding A Comment Count With Disqus & Statamic"
 layout: post
 date: 2013-07-11
 author: garethredfern
-categories:
-  - tutorials
+category: tutorials
 tags: ""
 summary: >
   Sometimes you may want to have the comment count

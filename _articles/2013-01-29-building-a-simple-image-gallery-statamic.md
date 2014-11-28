@@ -3,8 +3,7 @@ title: "Building A Simple Image Gallery In Statamic"
 layout: post
 date: 2013-01-29
 author: garethredfern
-categories:
-  - tutorials
+category: tutorials
 tags:
   - image gallery
 summary: >

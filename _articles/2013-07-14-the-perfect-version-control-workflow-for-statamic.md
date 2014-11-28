@@ -3,8 +3,7 @@ title: "The Perfect Version Control Workflow For Statamic?"
 layout: post
 date: 2013-07-14
 author: garethredfern
-categories:
-  - tutorials
+category: tutorials
 tags:
   - git
   - version control

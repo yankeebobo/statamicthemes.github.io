@@ -3,8 +3,7 @@ title: "Customising The Redactor Field Statamic"
 layout: post
 date: 2013-07-28
 author: garethredfern
-categories:
-  - videos
+category: videos
 tags: ""
 video: '<iframe width="640" height="360" src="//www.youtube.com/embed/zGwnCbpCSdk" frameborder="0" allowfullscreen></iframe>'
 summary: >

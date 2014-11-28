@@ -3,9 +3,8 @@ title: "Moving To GitHub Pages"
 layout: post
 date: 2014-11-27
 author: garethredfern
-categories:
-- general
-tags:
+category: general
+tags: ""
 summary: >
   I have decided to move Statamic Themes to GitHub Pages
   and I thought it deserved a post to explain why and how

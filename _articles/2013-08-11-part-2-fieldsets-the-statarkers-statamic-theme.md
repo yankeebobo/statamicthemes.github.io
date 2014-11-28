@@ -3,8 +3,7 @@ title: "Part 2 - Fieldsets The Statarkers Statamic Theme"
 layout: post
 date: 2013-08-11
 author: garethredfern
-categories:
-  - videos
+category: videos
 tags:
   - theme building
 video: '<iframe width="640" height="360" src="//www.youtube.com/embed/yjF8fxzJHJ0?rel=0" frameborder="0" allowfullscreen></iframe>'

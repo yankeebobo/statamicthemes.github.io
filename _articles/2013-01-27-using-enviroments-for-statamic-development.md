@@ -3,8 +3,7 @@ title: "Using Environments For Statamic Development"
 layout: post
 date: 2013-01-27
 author: garethredfern
-categories:
-  - tutorials
+category: tutorials
 tags:
   - tips
 summary: >

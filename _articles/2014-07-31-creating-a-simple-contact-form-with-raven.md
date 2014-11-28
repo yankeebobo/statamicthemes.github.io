@@ -3,8 +3,7 @@ title: "Creating A Simple Contact Form With Raven"
 layout: post
 date: 2014-07-11
 author: garethredfern
-categories:
-  - raven
+category: raven
 tags:
   - contact
 summary: >

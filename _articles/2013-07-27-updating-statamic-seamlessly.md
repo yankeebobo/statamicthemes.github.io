@@ -3,8 +3,7 @@ title: "Updating Statamic Seamlessly"
 layout: post
 date: 2013-07-27
 author: garethredfern
-categories:
-  - videos
+category: videos
 tags: ""
 video: '<iframe width="640" height="360" src="//www.youtube.com/embed/7AVDicNxi7o" frameborder="0" allowfullscreen></iframe>'
 summary: >
