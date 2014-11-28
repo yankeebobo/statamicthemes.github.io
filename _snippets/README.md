@@ -4,7 +4,7 @@ To add a snippet:
 
 1. [create a new file within the _snippets folder](https://github.com/statamicthemes/statamicthemes.github.io/tree/master/_snippets) (the same one as this README).
 2. Add the date to the front of the file name then give it a name that's the same as the title of the snippet, with words separated by hyphens, with .md at the end.
-3. Paste the following YAML code into the head of it (as you would with Statamic content)
+3. Paste the following YAML code into the head of it (as you would with Statamic content).
 
 ```
 ---
@@ -47,9 +47,7 @@ summary: >
 
 {% raw %}
 
-~~~yaml
-default_fieldset: myfieldset
-~~~
+Main snippet content goes in here, use markdown tags as you normall would.
 
 {% endraw %}
 
