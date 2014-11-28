@@ -6,6 +6,7 @@ categories:
   - starter themes
 tags:
   - minimal
+commercial: "no"
 summary: >
   Built using Foundation 4 (a CSS and Javascript framework)
   and on top of the Statarkers theme for Statamic.

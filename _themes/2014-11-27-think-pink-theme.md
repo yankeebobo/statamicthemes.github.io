@@ -7,6 +7,7 @@ categories:
 tags:
 - pink
 - minimal
+commercial: "no"
 summary: >
   A great looking pink theme by Steph Hider based on the Statarkers theme, it uses the UIkit framework, lightbox2 and owlcarousel.
 preview_link: http://thinkpink.themegoodness.com/

@@ -7,6 +7,7 @@ categories:
 tags:
   - blank
   - minimal
+commercial: "no"
 summary: >
   A minimal Statamic theme created to act as a
   starting point. This theme is a minimal canvas and
