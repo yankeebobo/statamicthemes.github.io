@@ -9,16 +9,18 @@ summary: >
   Statamic modifier to define blocks of content that can be styled for extra attention from the reader.
 download_link: https://github.com/clayh53/statamic-callout
 ---
+{% raw %}
 This is a simple statamic modifier (filter) that allows the user to mark sections of the content area for special styling. The primary use case for this modifier is for making Confluence-style callout blocks so that important or notable sections of content can be highlighted in the text. Generally, this means that an entire paragraph will be style using a special class.
 
 I have used this technique on a Jekyll-based static website thanks to an informative article written by Frank Caron [here](http://frankcaron.com/Flogger/?p=5163). It can be very useful in technical or informational articles so that important information can stands out from the regular content flow. In short, it is a useful tool for 21st century attention spans.
 
 This modifier works by using two defined 'callout identification' beginning and ending character strings.
 
-The opening character string is {% classname. This string marks the beginning of the important block of text and the word following the class is whatever classname you choose to give it. This flexible classname convention will allow multiple types of styling for different types content that is to be singled out.
+The opening character string is `{% classname`. This string marks the beginning of the important block of text and the word following the class is whatever classname you choose to give it. This flexible classname convention will allow multiple types of styling for different types content that is to be singled out.
 
-The second character string is the closing string %} which will mark the end of the block of text to be highlighted.
+The second character string is the closing string `%}` which will mark the end of the block of text to be highlighted.
 
-The modifier by default will substitute <div class="classname"> for the opening string and </div> for closing string.
+The modifier by default will substitute `<div class="classname">` for the opening string and </div> for closing string.
 
 I can for-see that some users might like to use another type of html tag such as the <span> tag for the callout text, and this can be accomplished by adding a parameter to the modifier when it is used in a template.
+{% endraw %}
