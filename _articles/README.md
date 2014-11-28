@@ -1,4 +1,4 @@
-# Adding an article
+# Adding an Article
 
 To add an article:
 
