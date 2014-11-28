@@ -6,7 +6,7 @@
 
 - Update main README.
 - Add XML feed.
-- Add tags and category links.
+- Add taxonomy functionality.
 - Add some more style.
 - Add commercial and free icon and YAML vars.
 - Add plugins from google docs list (started).
