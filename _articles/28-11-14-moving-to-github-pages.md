@@ -20,7 +20,7 @@ I love the way GitHub enables dev communities to collaborate on projects and I r
 I have played around with Jekyll before and it's quite a simple system to get going with, of course your content is written in markdown with YAML so converting the site from Statamic was pretty straightforward. There are definitely limitations compared to running on Statamic, especially when you use [collections](http://jekyllrb.com/docs/collections/) as I have.
 
 - Pagination doesn't currently work with collections.
-- Thers is no built in search facility.
+- There's is no built in search facility.
 - Taxonomies may not work as well (but I am still to implement that).
 
 All in all though I have been happy with how things have moved across and it has given me a push to get more content added, starting with adding more 3rd party themes and plugins. My plan is to move the complete Google Doc I created over to here so that users can find plugins easily.
