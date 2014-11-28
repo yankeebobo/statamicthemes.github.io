@@ -35,10 +35,9 @@ title: "Building Your First Statamic Theme Part One"
 layout: post
 date: 2013-01-19
 author: garethredfern
-categories:
-- tutorials
+category: tutorials
 tags:
-- theme building
+  - theme building
 summary: >
   Statamic makes it really easy to start
   building websites, and once you get an
