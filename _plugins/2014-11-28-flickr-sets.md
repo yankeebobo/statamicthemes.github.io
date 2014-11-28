@@ -2,7 +2,7 @@
 title: "Flickr_sets"
 layout: post
 author: clayh53
-categories: "flickr"
+category: "flickr"
 tags: ""
 commercial: "no"
 summary: >

@@ -2,7 +2,7 @@
 title: "Statamic Pluck"
 layout: post
 author: clayh53
-categories: "modifier"
+category: "modifier"
 tags: ""
 commercial: "no"
 summary: >

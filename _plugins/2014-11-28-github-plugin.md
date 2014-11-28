@@ -2,7 +2,7 @@
 title: "Statamic GitHub Plugin"
 layout: post
 author: blainsmith
-categories: "github"
+category: "github"
 tags: ""
 commercial: "no"
 summary: >

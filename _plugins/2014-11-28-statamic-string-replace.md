@@ -2,7 +2,7 @@
 title: "Statamic String Replace"
 layout: post
 author: AdamDotCom
-categories: ""
+category: ""
 tags: ""
 commercial: "no"
 summary: >

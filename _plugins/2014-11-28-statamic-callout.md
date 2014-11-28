@@ -2,7 +2,7 @@
 title: "Statamic Callout"
 layout: post
 author: clayh53
-categories: "modifier"
+category: "modifier"
 tags: ""
 commercial: "no"
 summary: >

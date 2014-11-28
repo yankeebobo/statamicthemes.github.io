@@ -3,8 +3,7 @@ title: "Output First & Last Name Of Author"
 layout: post
 date: 2013-07-10
 author: garethredfern
-categories:
-  - members
+category: members
 tags:
   - tips
 summary: >

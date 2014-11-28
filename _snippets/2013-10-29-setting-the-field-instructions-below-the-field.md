@@ -3,8 +3,7 @@ title: "Setting The Field Instructions Below The Field"
 layout: post
 date: 2013-10-29
 author: garethredfern
-categories:
-  - fields
+category: fields
 tags:
   - tips
 summary: >

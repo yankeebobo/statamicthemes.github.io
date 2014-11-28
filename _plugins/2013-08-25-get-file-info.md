@@ -2,7 +2,7 @@
 title: "Get File Info"
 layout: post
 author: garethredfern
-categories: ""
+category: ""
 tags: ""
 commercial: "no"
 summary: >

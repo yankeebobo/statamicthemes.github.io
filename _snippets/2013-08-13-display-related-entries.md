@@ -3,8 +3,7 @@ title: "Display Related Entries"
 layout: post
 date: 2013-08-13
 author: garethredfern
-categories:
-  - reference
+category: reference
 tags:
   - relationship
   - template tags

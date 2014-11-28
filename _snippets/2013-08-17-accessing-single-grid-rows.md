@@ -3,8 +3,7 @@ title: "Accessing Single Grid Rows"
 layout: post
 date: 2013-08-17
 author: garethredfern
-categories:
-  - reference
+category: reference
 tags:
   - grid
 summary: >

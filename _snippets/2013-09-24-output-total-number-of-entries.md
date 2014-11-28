@@ -3,8 +3,7 @@ title: "Output Total Number Of Entries"
 layout: post
 date: 2013-09-24
 author: garethredfern
-categories:
-  - reference
+category: reference
 tags:
   - template tags
 summary: >

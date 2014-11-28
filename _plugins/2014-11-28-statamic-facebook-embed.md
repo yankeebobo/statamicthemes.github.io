@@ -2,7 +2,7 @@
 title: "Statamic Facebook Embed"
 layout: post
 author: ademers
-categories: "facebook"
+category: "facebook"
 tags: "social"
 commercial: "no"
 summary: >

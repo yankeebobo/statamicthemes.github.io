@@ -3,8 +3,7 @@ title: "Reordering The Content Field Statamic"
 layout: post
 date: 2013-07-20
 author: garethredfern
-categories:
-  - fields
+category: fields
 tags:
   - tips
 summary: >

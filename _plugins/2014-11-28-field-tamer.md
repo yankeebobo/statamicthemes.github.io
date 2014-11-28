@@ -2,7 +2,7 @@
 title: "Field Tamer"
 layout: post
 author: jasonvarga
-categories: "fieldtype"
+category: "fieldtype"
 tags: ""
 commercial: "no"
 summary: >

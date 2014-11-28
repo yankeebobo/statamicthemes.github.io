@@ -2,7 +2,7 @@
 title: "Video Embeds"
 layout: post
 author: duner
-categories: "video"
+category: "video"
 tags: ""
 commercial: "no"
 summary: >

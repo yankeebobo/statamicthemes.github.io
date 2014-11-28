@@ -2,7 +2,7 @@
 title: "Statamic Table of Contents"
 layout: post
 author: clayh53
-categories: "modifier"
+category: "modifier"
 tags: ""
 commercial: "no"
 summary: >

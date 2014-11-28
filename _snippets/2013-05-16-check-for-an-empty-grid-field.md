@@ -3,8 +3,7 @@ title: "Check For An Empty Grid Field"
 layout: post
 date: 2013-05-16
 author: garethredfern
-categories:
-  - template tags
+category: template tags
 tags:
   - grid
   - conditionals

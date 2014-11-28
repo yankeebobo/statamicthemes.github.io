@@ -3,8 +3,7 @@ title: "Pagination With Page Count"
 layout: post
 date: 2013-08-06
 author: garethredfern
-categories:
-  - theme building
+category: theme building
 tags:
   - reference
 summary: >

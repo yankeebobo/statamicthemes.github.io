@@ -3,8 +3,7 @@ title: "Set A Global Fieldset"
 layout: post
 date: 2013-08-21
 author: garethredfern
-categories:
-  - fields
+category: fields
 tags:
   - tips
 summary: >

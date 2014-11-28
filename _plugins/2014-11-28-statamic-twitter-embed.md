@@ -2,7 +2,7 @@
 title: "Statamic Twitter Embed"
 layout: post
 author: ademers
-categories: "twitter"
+category: "twitter"
 tags: "social"
 commercial: "no"
 summary: >

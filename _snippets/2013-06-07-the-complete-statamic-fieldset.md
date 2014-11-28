@@ -3,8 +3,7 @@ title: "List Of Statamic's Default Fields"
 layout: post
 date: 2013-06-07
 author: garethredfern
-categories:
-  - template tags
+category: template tags
 tags: ""
 summary: >
   All the default field types and their

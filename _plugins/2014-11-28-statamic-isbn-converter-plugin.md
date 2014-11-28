@@ -2,7 +2,7 @@
 title: "Statamic ISBN Converter Plugin"
 layout: post
 author: budparr
-categories: "Amazon"
+category: "Amazon"
 tags: ""
 commercial: "no"
 summary: >

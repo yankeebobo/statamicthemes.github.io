@@ -3,8 +3,7 @@ title: "Accessing Member Fields"
 layout: post
 date: 2013-08-21
 author: garethredfern
-categories:
-  - template tags
+category: template tags
 tags:
   - reference
 summary: >
