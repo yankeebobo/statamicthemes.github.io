@@ -9,7 +9,7 @@ summary: >
   This plugin allows you to quickly & easily embed public Twitter Tweets into Statamic-powered websites.
 download_link: https://github.com/ademers/statamic-twitter-embed
 ---
-You can see it in action on my personal site, [andreademers.com](http://andreademers.com/statamic-facebook-embed-plugin).
+You can see it in action on my personal site, [andreademers.com](http://andreademers.com/statamic-twitter-embed-plugin).
 
 To learn more about Embedded Tweets, check out:
 
