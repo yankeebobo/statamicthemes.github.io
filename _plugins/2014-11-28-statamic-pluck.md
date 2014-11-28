@@ -1,0 +1,16 @@
+---
+title: "Statamic Pluck"
+layout: post
+author: clayh53
+categories: "modifier"
+tags: ""
+commercial: "no"
+summary: >
+  This is a pair of super-simple statamic modifiers (filters) that allow the extraction of a contiguous block of content   from a page or post, without having to define a content variable that contains redundant information.
+download_link: https://github.com/clayh53/statamic-pluck
+---
+These two modifiers work by using two defined 'content identification' beginning and ending character strings.
+
+The first modifier is chunk. This modifier allows the user to insert the set of pre-defined character strings in any content area (the stuff below the YAML front matter) that will mark the beginning and the end of the 'chunk' of content to be displayed. This is more flexible than the truncate modifier since its position can vary depending on the content and is not fixed to a specific number of characters. The excerpt can therefore end at a sensible position in the content.
+
+The second modifier is unchunk. This modifer is used in conjunction with the chunk modifier to strip out the predefined character strings from the content area and return it sans string. If the character strings are not present, it does nothing.
