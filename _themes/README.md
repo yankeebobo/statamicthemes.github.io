@@ -31,7 +31,7 @@ Here's an example of a theme I've added to the _themes folder:
 
 ```
 ---
-title: "The Statarkers Theme For Statamic"
+title: "Statarkers"
 layout: post
 author: garethredfern
 categories:
