@@ -5,7 +5,7 @@
     <ol class="articles__list">
       {% for plugin in site.plugins reversed %}
       <li>
-        <a href="{{ plugin.url }}">{% if plugin.commercial == "yes" %}<i class="icon-money"></i> {% endif %}{{ plugin.title }}</a>
+        <a href="{{ plugin.url }}">{% endif %}{{ plugin.title }} {% if plugin.commercial == "yes" %}<i class="icon-money"></i></a>
       </li>
       {% endfor %}
     </ol>
