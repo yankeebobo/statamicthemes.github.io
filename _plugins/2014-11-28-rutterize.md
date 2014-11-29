@@ -1,5 +1,5 @@
 ---
-title: "Statamic Rutterize"
+title: "Rutterize"
 layout: post
 author: clayh53
 category: "modifier"

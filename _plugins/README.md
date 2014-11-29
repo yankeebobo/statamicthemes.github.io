@@ -3,7 +3,7 @@
 To add a plugin:
 
 1. [create a new file within the _plugins folder](https://github.com/statamicthemes/statamicthemes.github.io/tree/master/_plugins) (the same one as this README).
-2. Add the date to the front of the file name then give it a name that's the same as the title of the plugin, with words separated by hyphens, with .md at the end.
+2. Add the date to the front of the file name then give it a name that's the same as the title of the plugin, with words separated by hyphens, with .md at the end. **Please do do not include the name "Statamic" in the title or file name.**
 3. Paste the following YAML code into the head of it (as you would with Statamic content).
 
 ```

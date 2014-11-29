@@ -1,5 +1,5 @@
 ---
-title: "Foundation 4 Statamic Theme"
+title: "Foundation 4"
 layout: post
 author: garethredfern
 categories:

@@ -1,5 +1,5 @@
 ---
-title: "The Statarkers Theme For Statamic"
+title: "Statarkers"
 layout: post
 author: garethredfern
 categories:

@@ -1,5 +1,5 @@
 ---
-title: "Statamic Stack Exchange"
+title: "Stack Exchange"
 layout: post
 author: jasonvarga
 category: "social"

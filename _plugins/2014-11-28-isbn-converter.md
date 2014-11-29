@@ -1,5 +1,5 @@
 ---
-title: "Statamic ISBN Converter Plugin"
+title: "ISBN Converter"
 layout: post
 author: budparr
 category: "Amazon"

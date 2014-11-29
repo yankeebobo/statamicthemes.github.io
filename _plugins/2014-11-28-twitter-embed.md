@@ -1,5 +1,5 @@
 ---
-title: "Statamic Twitter Embed"
+title: "Twitter Embed"
 layout: post
 author: ademers
 category: "social"

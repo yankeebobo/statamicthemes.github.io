@@ -1,5 +1,5 @@
 ---
-title: "Soundcloud Statamic"
+title: "Soundcloud"
 layout: post
 author: jeremysexton
 category: "social"

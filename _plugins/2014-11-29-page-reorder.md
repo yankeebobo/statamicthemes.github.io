@@ -1,5 +1,5 @@
 ---
-title: "Statamic Page Reorder"
+title: "Page Reorder"
 layout: post
 author: jannisg
 category: "cp"

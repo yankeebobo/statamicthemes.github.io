@@ -1,5 +1,5 @@
 ---
-title: "Statamic String Replace"
+title: "String Replace"
 layout: post
 author: AdamDotCom
 category: ""

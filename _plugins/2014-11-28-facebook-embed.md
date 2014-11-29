@@ -1,5 +1,5 @@
 ---
-title: "Statamic Facebook Embed"
+title: "Facebook Embed"
 layout: post
 author: ademers
 category: "social"
