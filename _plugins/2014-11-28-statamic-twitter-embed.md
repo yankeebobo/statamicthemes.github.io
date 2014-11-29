@@ -2,8 +2,8 @@
 title: "Statamic Twitter Embed"
 layout: post
 author: ademers
-category: "twitter"
-tags: "social"
+category: "social"
+tags: "twitter"
 commercial: "no"
 summary: >
   This plugin allows you to quickly & easily embed public Twitter Tweets into Statamic-powered websites.

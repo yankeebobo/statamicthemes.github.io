@@ -1,0 +1,11 @@
+---
+title: "Statamic Spotify"
+layout: post
+author: jasonvarga
+category: "social"
+tags: ""
+commercial: "no"
+summary: >
+  Make embedding the Spotify play button simpler than it already is.
+download_link: https://github.com/pixelfear/Statamic-Spotify
+---

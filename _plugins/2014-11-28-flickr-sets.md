@@ -2,8 +2,8 @@
 title: "Flickr_sets"
 layout: post
 author: clayh53
-category: "flickr"
-tags: ""
+category: "social"
+tags: "flickr"
 commercial: "no"
 summary: >
   This Statamic add-on was created as an extension of the great Statamic flickr plugin created by Nikolai Strandskogen.

@@ -2,8 +2,8 @@
 title: "Statamic Facebook Embed"
 layout: post
 author: ademers
-category: "facebook"
-tags: "social"
+category: "social"
+tags: "facebook"
 commercial: "no"
 summary: >
   This plugin allows you to quickly & easily embed public Facebook Posts into Statamic-powered websites.
