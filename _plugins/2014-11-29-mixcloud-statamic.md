@@ -1,0 +1,36 @@
+---
+title: "Mixcloud Statamic"
+layout: post
+author: jeremysexton
+category: "social"
+tags: "mixcloud"
+commercial: "no"
+summary: >
+  A simple Statamic plugin to embed Mixcloud mixes.
+download_link: https://github.com/jeremysexton/Mixcloud-Statamic
+---
+
+{% raw %}
+
+### Installing
+
+1. Create a folder in your "_add-ons" folder named "mixcloud".
+2. Copy "pi.mixcloud.php" into that folder.
+
+##Usage
+
+The plugin is called with `{{ mixcloud }}`
+
+The following parameters are all required:
+
+- url
+- width
+- height
+
+### Example
+
+```
+{{ mixcloud url="http://www.mixcloud.com/TwistedPanda/summer-cruisin-mix/" width="100%" height="400" }}
+```
+
+{% endraw %}
