@@ -9,6 +9,8 @@ summary: >
   Lets you use conditionals for whether the page was requested via AJAX or not.
 download_link: https://github.com/pixelfear/Statamic-AJAX
 ---
+{% raw %}
+
 ### In your layout...  
 Show wrapping code if it's a regular request.
 
@@ -45,3 +47,5 @@ There's also an `{{ ajax:json_encode }}` tag pair that will take care of line br
   </ul>
   {{ endif }}
 ```
+
+{% endraw %}
