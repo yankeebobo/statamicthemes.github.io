@@ -1,7 +1,6 @@
 ---
 title: "Plugin Gist"
 layout: post
-date: 2014-11-29
 author: jackmcdade
 category: "github"
 tags: ""

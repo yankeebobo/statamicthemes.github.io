@@ -1,7 +1,6 @@
 ---
 title: "CP Edit URL"
 layout: post
-date: 2014-11-29
 author: fredleblanc
 category: "cp"
 tags: ""

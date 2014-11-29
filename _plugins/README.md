@@ -10,7 +10,6 @@ To add a plugin:
 ---
 title: Title of Plugin
 layout: post
-date: 2013-01-01
 author: githubusername
 category: single category
 tags:
@@ -34,7 +33,6 @@ Here's an example of a plugin I've added to the _plugins folder:
 ---
 title: "Get File Info"
 layout: post
-date: 2013-01-01
 author: garethredfern
 category: ""
 tags: ""

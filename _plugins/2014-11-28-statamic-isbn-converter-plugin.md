@@ -1,7 +1,6 @@
 ---
 title: "Statamic ISBN Converter Plugin"
 layout: post
-date: 2014-11-28
 author: budparr
 category: "Amazon"
 tags: ""

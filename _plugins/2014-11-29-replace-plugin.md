@@ -1,7 +1,6 @@
 ---
 title: "Replace Plugin"
 layout: post
-date: 2014-11-29
 author: iso100
 category: ""
 tags: ""

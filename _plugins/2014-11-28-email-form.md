@@ -1,7 +1,6 @@
 ---
 title: "Email Form"
 layout: post
-date: 2014-11-28
 author: ericbarnes
 category: "forms"
 tags: ""
