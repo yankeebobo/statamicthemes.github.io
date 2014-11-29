@@ -5,7 +5,7 @@
     <ol class="articles__list">
       {% for theme in site.themes reversed %}
       <li>
-        <a href="{{ theme.url }}">{{ theme.title }}</a>
+        <a href="{{ theme.url }}">{% if plugin.commercial == "yes" %}<i class="icon-money"></i> {% endif %}{{ theme.title }}</a>
       </li>
       {% endfor %}
     </ol>
