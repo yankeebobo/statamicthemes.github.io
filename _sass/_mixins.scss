@@ -1,7 +1,0 @@
-// =====================================
-// Mixins used in your theme.
-// =====================================
-
-@function calc-em($target-px, $context) {
-  @return ($target-px / $context) * 1em;
-}

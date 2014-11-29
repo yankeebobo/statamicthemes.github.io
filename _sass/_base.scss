@@ -18,18 +18,18 @@ html  {
 body {
   line-height: 1.5;
   color: $cs-font;
-  font-size: em(14);
+  font-size: 0.875em;
   font-style: normal;
   font-family: $font-sans;
   background-color: $cs-bodyBg;
   font-weight: $mainFontWeight;
 }
-h1 { font-size: em(42); margin-top: 0; margin-bottom: 0; }
-h2 { font-size: em(36); margin-top: 0.2em; margin-bottom: 0; }
-h3 { font-size: em(24); margin-top: 0.2em; margin-bottom: 0; }
-h4 { font-size: em(16); margin-top: 0.2em; margin-bottom: 0; }
-h5 { font-size: em(16); margin-top: 0.2em; margin-bottom: 0; }
-h6 { font-size: em(16); margin-top: 0.2em; margin-bottom: 0; }
+h1 { font-size: 2em; margin-top: 0; margin-bottom: 0; }
+h2 { font-size: 1.4em; margin-top: 0.2em; margin-bottom: 0; }
+h3 { font-size: 1.2em; margin-top: 0.2em; margin-bottom: 0; }
+h4 { font-size: 1em; margin-top: 0.2em; margin-bottom: 0; }
+h5 { font-size: 1em; margin-top: 0.2em; margin-bottom: 0; }
+h6 { font-size: 1em; margin-top: 0.2em; margin-bottom: 0; }
 
 h1,h2,h3,h4,h5,h6 {
   color: $cs-heading;
@@ -74,13 +74,13 @@ pre {
 img { width: 100%; max-width: 100%; height: auto; vertical-align: bottom; }
 blockquote {
   margin-left: 0;
-  font-weight: 300;
   font-size: 1em;
   color: $cs-font;
   font-style: italic;
+  font-weight: $mainFontWeight;
 }
 ol,ul { padding-left: 1.3em; }
-dt { font-weight: bold; }
+dt { font-weight: $boldFontWeight; }
 dd { margin-bottom: 1em; }
 iframe, object { max-width: 100%; }
 figure { margin: 0; }

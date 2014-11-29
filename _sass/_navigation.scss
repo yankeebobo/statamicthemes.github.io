@@ -49,7 +49,7 @@ $cs-link--desktop-hover : $cs-a2;
 .nav__link {
   display: block;
   line-height: 2.5;
-  font-size: em(18);
+  font-size: 1.1em;
   padding-left: 1em;
   padding-right: 1em;
   &:link, &:visited {
@@ -60,6 +60,10 @@ $cs-link--desktop-hover : $cs-a2;
     color: $cs-link--mobile-hover;
     background-color: $cs-link-bg--mobile-hover;
   }
+}
+.link--home {
+  font-size: 1.2em;
+  text-transform: lowercase;
 }
 
 // DESKTOP
@@ -89,7 +93,7 @@ $cs-link--desktop-hover : $cs-a2;
     padding-left: 0;
     padding-right: 0;
     line-height: 1.5;
-    font-size: em(16);
+    font-size: 1em;
     &:link, &:visited {
       color: $cs-link--desktop;
       background-color: transparent;
