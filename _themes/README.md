@@ -17,6 +17,8 @@ tags:
 commercial: "no" (set to "yes" or "no" if its a paid theme)
 summary: >
   A short summary for the theme.
+preview_link: http://example.com
+download_link: http://example.com
 ---
 {% raw %}
 
