@@ -1,6 +1,7 @@
 ---
 title: "Statamic Twitter Embed"
 layout: post
+date: 2014-11-28
 author: ademers
 category: "twitter"
 tags: "social"

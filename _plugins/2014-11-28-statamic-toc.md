@@ -1,6 +1,7 @@
 ---
 title: "Statamic Table of Contents"
 layout: post
+date: 2014-11-28
 author: clayh53
 category: "modifier"
 tags: ""

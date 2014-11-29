@@ -1,6 +1,7 @@
 ---
 title: "Flickr_sets"
 layout: post
+date: 2014-11-28
 author: clayh53
 category: "flickr"
 tags: ""

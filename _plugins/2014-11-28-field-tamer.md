@@ -1,6 +1,7 @@
 ---
 title: "Field Tamer"
 layout: post
+date: 2014-11-28
 author: jasonvarga
 category: "fieldtype"
 tags: ""

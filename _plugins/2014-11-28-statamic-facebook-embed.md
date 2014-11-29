@@ -1,6 +1,7 @@
 ---
 title: "Statamic Facebook Embed"
 layout: post
+date: 2014-11-28
 author: ademers
 category: "facebook"
 tags: "social"
