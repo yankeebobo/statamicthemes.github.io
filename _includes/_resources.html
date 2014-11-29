@@ -1,0 +1,15 @@
+<main role="main" class="main">
+  <h2 class="main__heading"><i class="icon-resouces"></i>  {{ page.title }}</h2>
+
+  <section class="articles">
+    <ol class="articles__list">
+      {% for resource in site.resource reversed %}
+      <li>
+        <a href="{{ resource.url }}">{{ resource.title }}</a>
+      </li>
+      {% endfor %}
+    </ol>
+    <p>If you have a resource you would like to include, please submit a pull request through <a href="{{ site.github.repository_url }}/tree/master/_resources" class="link-highlight"><i class="icon-github"></i> GitHub</a>.</p>
+  </section>
+
+</main><!-- END .main -->

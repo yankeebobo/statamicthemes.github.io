@@ -34,3 +34,6 @@ collections:
   plugins:
     output: true
     permalink: /:collection/:title/
+  resources:
+    output: true
+    permalink: /:collection/:title/
