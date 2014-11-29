@@ -3,7 +3,7 @@ title: "Statamic Spotify"
 layout: post
 author: jasonvarga
 category: "social"
-tags: ""
+tags: "spotify"
 commercial: "no"
 summary: >
   Make embedding the Spotify play button simpler than it already is.
