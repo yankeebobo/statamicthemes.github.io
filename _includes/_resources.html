@@ -3,7 +3,7 @@
 
   <section class="articles">
     <ol class="articles__list">
-      {% for resource in site.resource reversed %}
+      {% for resource in site.resources reversed %}
       <li>
         <a href="{{ resource.url }}">{{ resource.title }}</a>
       </li>
