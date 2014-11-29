@@ -11,7 +11,7 @@ To add a plugin:
 title: Title of Plugin
 layout: post
 author: githubusername
-category: single category
+category: mycategory (choose a single category)
 tags:
   - tags(if required)
 commercial: "no" (set to "yes" or "no" if its a paid plugin)

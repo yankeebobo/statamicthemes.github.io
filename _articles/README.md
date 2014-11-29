@@ -12,7 +12,7 @@ title: Title of Article
 layout: post
 date: 2013-01-01
 author: githubusername
-category: single category
+category: mycategory (choose a single category)
 tags:
   - tags(if required)
 summary: >
