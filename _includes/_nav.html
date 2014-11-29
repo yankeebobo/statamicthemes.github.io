@@ -4,7 +4,9 @@
   <div class="constrain">
     <a id="menu" class="nav--primary__btn">Menu</a>
     <ul id="js-nav--primary__list" class="nav--primary__list">
-      <li class="nav__listItem link--home"><a href="/">{% raw %}{{ st }}{% endraw %}</a></li>
+      <li class="nav__listItem link--home">
+        <a href="/" class="nav__link">{% raw %}{{ st }}{% endraw %}</a>
+      </li>
       {% for item in include.nav %}
         <li class="nav__listItem">
           <a href="{{ item.url }}" class="nav__link{% if navurl contains item.url %} current{% endif %}">{{ item.text }}</a>

@@ -64,6 +64,10 @@ $cs-link--desktop-hover : $cs-a2;
 .link--home {
   font-size: 1.2em;
   text-transform: lowercase;
+  a {
+    &:link, &:visited { color: $cs-a2; }
+    &:hover, &:active, &:focus { color: lighten($cs-a2, 20%); }
+  }
 }
 
 // DESKTOP
