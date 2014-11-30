@@ -1,5 +1,5 @@
 ---
-title: Statamic Themes Repos
+title: Statamic Themes Code
 layout: post
 date: 2014-11-30
 author: garethredfern
