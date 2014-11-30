@@ -2,8 +2,7 @@
 title: "Statarkers"
 layout: post
 author: garethredfern
-categories:
-  - starter themes
+category: "starter themes"
 tags:
   - blank
   - minimal

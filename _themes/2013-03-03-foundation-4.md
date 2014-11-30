@@ -2,7 +2,7 @@
 title: "Foundation 4"
 layout: post
 author: garethredfern
-categories:
+category:
   - starter themes
 tags:
   - minimal

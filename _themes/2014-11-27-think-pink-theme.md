@@ -2,8 +2,7 @@
 title: "Think Pink Theme"
 layout: post
 author: garethredfern
-categories:
-- themes
+category: ""
 tags:
 - pink
 - minimal

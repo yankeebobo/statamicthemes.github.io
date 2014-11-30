@@ -36,8 +36,7 @@ Here's an example of a theme I've added to the _themes folder:
 title: "Statarkers"
 layout: post
 author: garethredfern
-categories:
-- starter themes
+category: "starter themes"
 tags:
 - blank
 - minimal

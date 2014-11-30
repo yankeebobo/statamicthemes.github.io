@@ -2,8 +2,7 @@
 title: "Ares - The God of War"
 layout: post
 author: garethredfern
-categories:
-- themes
+category: ""
 tags:
 - blank
 - minimal
