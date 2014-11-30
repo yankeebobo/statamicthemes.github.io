@@ -8,4 +8,3 @@
 - Add XML feed.
 - Add taxonomy functionality.
 - Add some more style.
-- Add plugins from google docs list (started).
