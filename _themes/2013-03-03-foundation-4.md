@@ -2,8 +2,7 @@
 title: "Foundation 4"
 layout: post
 author: garethredfern
-category:
-  - starter themes
+category: "starter themes"
 tags:
   - minimal
 commercial: "no"
