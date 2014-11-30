@@ -15,7 +15,7 @@ summary: >
 
 {% raw %}
 
-Recently I have built a couple of sites where I have had the opportunity to use the new [location field type](http://statamicist.com/articles/sneak-peek-4-new-and-improved-fieldtypes) in Statamic. This can be really useful if you need to display places on a map with a marker. The typical use case would be displaying business locations on an about us or contact us page. Whilst Statamic v1.5 is still at release candidate there isn't too much in the way of documentation for helping to set things up, so I thought it would be useful to document how I got it working. The [example files](https://github.com/statamicthemes/locations) are on Github so feel free to use them as you see fit.
+Recently I have built a couple of sites where I have had the opportunity to use the new [location field type](http://statamic.com/learn/documentation/tags/location) in Statamic. This can be really useful if you need to display places on a map with a marker. The typical use case would be displaying business locations on an about us or contact us page. Whilst Statamic v1.5 is still at release candidate there isn't too much in the way of documentation for helping to set things up, so I thought it would be useful to document how I got it working. The [example files](https://github.com/statamicthemes/locations) are on Github so feel free to use them as you see fit.
 
 ### Getting Started
 I have set the example up to display ordered entries from within the [locations folder](https://github.com/statamicthemes/locations/tree/master/_content/locations) but these could just as easily be date entries if you choose to go that route. Other than that there are only three elements required to get the locations set up and displaying:

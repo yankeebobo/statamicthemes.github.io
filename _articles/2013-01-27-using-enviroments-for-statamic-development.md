@@ -57,6 +57,6 @@ The conditional looks for the `enable_analytics` variable set in the environment
 ### Conclusion
 This is only the tip of the iceberg, once you start experimenting with environments you will see their power. You could for example have a completely different site set up on your development server but still sharing the same content as your live server. Your client can view all changes made in the development area and once they are signed off you can easily push them to the live site by removing the conditional tags.
 
-For a more in depth article on how environments work you can read [Using Environments](http://statamicist.com/tips/using-environments) over at the Statamicist and the [Statamic documentation](http://statamic.com/learn/advanced-features/environments) explains how the tags work in full.
+For a more in depth article on how environments work you can read the [Statamic documentation](http://statamic.com/learn/advanced-features/environments) which explains how the tags work in full.
 
 {% endraw %}
