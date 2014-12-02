@@ -11,5 +11,5 @@ summary: >
 ---
 
 {% raw %}
-Use `{{ if ! grid:1 }}`. What this is saying is, "if row 2 is null". Tag loops (grids) can have their rows accessed directory by their zero-indexed key (so, starting at 0): grid:0, grid:1, grid:2, and so on.
+Use `{{ if ! grid:1 }}`. What this is saying is, "if row 2 is null". Tag loops (grids) can have their rows accessed directly by their zero-indexed key (so, starting at 0): grid:0, grid:1, grid:2, and so on.
 {% endraw %}
