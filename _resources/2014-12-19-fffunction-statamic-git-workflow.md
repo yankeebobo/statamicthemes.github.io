@@ -1,5 +1,5 @@
 ---
-title: Fffunction's Git Workflow
+title: FFFunction's Git Workflow
 layout: post
 date: 2014-12-19
 author: garethredfern
