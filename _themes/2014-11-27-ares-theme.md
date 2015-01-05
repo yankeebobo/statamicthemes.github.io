@@ -1,5 +1,5 @@
 ---
-title: "Ares - The God of War"
+title: "Ares"
 layout: post
 author: garethredfern
 category: ""
