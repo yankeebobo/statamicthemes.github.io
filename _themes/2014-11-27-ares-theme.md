@@ -10,7 +10,7 @@ commercial: "no"
 summary: >
   A great looking gaming theme by Steph Hider based on the Statarkers theme and using the Twitter Bootstrap framework.
 preview_link: http://ares.themegoodness.com/
-download_link: http://stephaniehider.com/blog/ares-the-god-of-war-free-statamic-theme
+download_link: http://stephaniehider.com/blog/ares-free-statamic-theme
 ---
 
 Taken from Steph's website:
